@@ -33,18 +33,18 @@
 <table width="100%" style="border: none; background: transparent;">
   <tr style="border: none;">
     <td width="55%" style="border: none;" valign="top">
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=aniketkrs&bg_color=000000&color=4f46e5&line=4f46e5&point=ffffff&area=true&hide_border=true&title_color=4f46e5&radius=15" alt="Activity Graph" width="100%" />
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=aniketkrs&bg_color=0a0a0a&color=4f46e5&line=4f46e5&point=ffffff&area=true&hide_border=false&title_color=4f46e5&radius=24&custom_title=Aniket%20Kumar's%20Contribution%20Graph" alt="Activity Graph" width="100%" />
     </td>
     <td width="45%" style="border: none;" valign="top">
-      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=aniketkrs&layout=donut&show_icons=true&hide_border=true&bg_color=000000&title_color=4f46e5&icon_color=4f46e5&text_color=ffffff&card_width=400&border_radius=15" alt="Top Languages" width="100%" />
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=aniketkrs&show_icons=true&hide_border=false&bg_color=0a0a0a&title_color=4f46e5&icon_color=4f46e5&text_color=ffffff&border_radius=24&custom_title=My%20Programming%20Languages" alt="Top Languages" width="100%" />
     </td>
   </tr>
   <tr style="border: none;">
     <td width="55%" style="border: none;" valign="top">
-      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=aniketkrs&show_icons=true&hide_border=true&bg_color=000000&title_color=4f46e5&icon_color=4f46e5&text_color=ffffff&border_radius=15" alt="GitHub Stats" width="100%" />
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=aniketkrs&show_icons=true&hide_border=false&bg_color=0a0a0a&title_color=4f46e5&icon_color=4f46e5&text_color=ffffff&border_radius=24&custom_title=My%20GitHub%20Statistics" alt="GitHub Stats" width="100%" />
     </td>
     <td width="45%" style="border: none;" valign="top">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=aniketkrs&hide_border=true&background=000000&ring=4f46e5&fire=4f46e5&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=ffffff&sideLabels=ffffff&dates=ffffff&stroke=00000000&border_radius=15" alt="GitHub Streak" width="100%" />
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=aniketkrs&hide_border=false&background=0a0a0a&ring=4f46e5&fire=4f46e5&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=ffffff&sideLabels=ffffff&dates=ffffff&stroke=00000000&border_radius=24" alt="GitHub Streak" width="100%" />
     </td>
   </tr>
 </table>
