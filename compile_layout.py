@@ -86,25 +86,35 @@ with open('/Users/abcom/.gemini/antigravity/scratch/aniketkrs/assets/animated-ba
     f.write(master_svg)
 
 def create_header(text, filename):
+    common_style = """
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap');
+  </style>"""
     # Dark version — Indigo to Violet gradient
     svg_dark = f"""<svg width="800" height="80" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap');
+  </style>
   <defs>
     <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#a855f7;stop-opacity:1" />
     </linearGradient>
   </defs>
-  <text x="400" y="55" font-family="'Trebuchet MS', 'Lucida Grande', Arial, sans-serif" font-size="40" font-weight="900" fill="url(#grad)" text-anchor="middle" letter-spacing="6">{text}</text>
+  <text x="400" y="52" font-family="'Press Start 2P', 'Courier New', monospace" font-size="26" font-weight="400" fill="url(#grad)" text-anchor="middle">{text}</text>
 </svg>"""
     # Light version — Deep Navy to Ocean Blue gradient
     svg_light = f"""<svg width="800" height="80" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap');
+  </style>
   <defs>
     <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style="stop-color:#1e40af;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#0284c7;stop-opacity:1" />
     </linearGradient>
   </defs>
-  <text x="400" y="55" font-family="'Trebuchet MS', 'Lucida Grande', Arial, sans-serif" font-size="40" font-weight="900" fill="url(#grad)" text-anchor="middle" letter-spacing="6">{text}</text>
+  <text x="400" y="52" font-family="'Press Start 2P', 'Courier New', monospace" font-size="26" font-weight="400" fill="url(#grad)" text-anchor="middle">{text}</text>
 </svg>"""
     with open(f'/Users/abcom/.gemini/antigravity/scratch/aniketkrs/assets/{filename}-dark.svg', 'w') as f:
         f.write(svg_dark)
@@ -140,7 +150,7 @@ readme_content = f"""<div align="center">
   <img alt="About Me" src="assets/header-about-dark.svg?v={ts}" width="100%" />
 </picture>
 
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&pause=1500&color=6366f1&center=true&vCenter=true&multiline=true&width=800&height=220&lines=Product+Manager+transitioned+from+Designer.;I+love+building+features+and+making+user+experiences;seamless+and+good,+thinking+for+the+long+term.;I+love+to+play+and+experiment+with+new+tools+and+features.;Now+on+the+journey+of+building+AI+products;and+I+love+to+read+books+and+write+articles.&v={ts}" alt="Typing Intro" width="100%" />
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=500&size=20&pause=1500&color=FFFFFF&center=true&vCenter=true&multiline=true&width=800&height=220&lines=Product+Manager+transitioned+from+Designer.;I+love+building+features+and+making+user+experiences;seamless+and+good,+thinking+for+the+long+term.;I+love+to+play+and+experiment+with+new+tools+and+features.;Now+on+the+journey+of+building+AI+products;and+I+love+to+read+books+and+write+articles.&v={ts}" alt="Typing Intro" width="100%" />
 </div>
 <br>
 
