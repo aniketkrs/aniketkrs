@@ -13,9 +13,7 @@
       <a href="https://twitter.com/#"><img src="https://img.shields.io/badge/TWITTER-09090b?style=for-the-badge&logo=x&logoColor=white" alt="Twitter" /></a>
       <a href="mailto:#"><img src="https://img.shields.io/badge/EMAIL-09090b?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
       <a href="https://github.com/aniketkrs/aniketkrs/tree/main/portfolio"><img src="https://img.shields.io/badge/PORTFOLIO-09090b?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-
       <br><br>
-
       <h2>Product & Engineering Stack:</h2>
       <img src="https://img.shields.io/badge/Figma-09090b?style=flat-square&logo=figma&logoColor=white" alt="Figma" />
       <img src="https://img.shields.io/badge/Jira-09090b?style=flat-square&logo=jira&logoColor=white" alt="Jira" />
@@ -46,12 +44,12 @@
       <img src="https://github-readme-activity-graph.vercel.app/graph?username=aniketkrs&bg_color=09090b&color=8b5cf6&line=8b5cf6&point=ffffff&area=true&hide_border=true&title_color=8b5cf6" alt="Activity Graph" width="100%" />
     </td>
     <td width="45%" style="border: none;" valign="top">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aniketkrs&layout=donut&show_icons=true&hide_border=true&bg_color=09090b&title_color=8b5cf6&icon_color=8b5cf6&text_color=a1a1aa&card_width=400" alt="Top Languages" width="100%" />
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=aniketkrs&layout=donut&show_icons=true&hide_border=true&bg_color=09090b&title_color=8b5cf6&icon_color=8b5cf6&text_color=a1a1aa&card_width=400" alt="Top Languages" width="100%" />
     </td>
   </tr>
   <tr style="border: none;">
     <td width="55%" style="border: none;" valign="top">
-      <img src="https://github-readme-stats.vercel.app/api?username=aniketkrs&show_icons=true&hide_border=true&bg_color=09090b&title_color=8b5cf6&icon_color=34d399&text_color=a1a1aa" alt="GitHub Stats" width="100%" />
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=aniketkrs&show_icons=true&hide_border=true&bg_color=09090b&title_color=8b5cf6&icon_color=34d399&text_color=a1a1aa" alt="GitHub Stats" width="100%" />
     </td>
     <td width="45%" style="border: none;" valign="top">
       <img src="https://github-readme-streak-stats.herokuapp.com/?user=aniketkrs&hide_border=true&background=09090b&ring=8b5cf6&fire=34d399&currStreakNum=ffffff&sideNums=a1a1aa&currStreakLabel=a1a1aa&sideLabels=a1a1aa&dates=a1a1aa&stroke=00000000" alt="GitHub Streak" width="100%" />
