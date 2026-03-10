@@ -7,6 +7,9 @@
 <table width="100%" style="border: none; background: transparent;">
   <tr style="border: none;">
     <td width="60%" style="border: none;" valign="top">
+      <h2>About Me</h2>
+      <img src="https://readme-typing-svg.demolab.com?font=SF+Pro+Display&weight=500&size=16&pause=1500&color=a1a1aa&center=false&vCenter=false&width=600&height=30&lines=Product+Manager+turned+from+Designer.;Obsessed+with+seamless,+long-term+user+experiences.;Currently+building+next-gen+products+using+AI.;Always+experimenting+with+new+tools+and+features.;Avid+reader+and+tech+article+writer." alt="Typing Intro" />
+      <br><br>
       <h2>Connect with me</h2>
       <a href="https://github.com/aniketkrs"><img src="https://img.shields.io/badge/GITHUB-000000?style=flat&logo=github&logoColor=4f46e5" alt="GitHub" /></a>
       <a href="https://linkedin.com/in/#"><img src="https://img.shields.io/badge/LINKEDIN-000000?style=flat&logo=linkedin&logoColor=4f46e5" alt="LinkedIn" /></a>
@@ -27,7 +30,7 @@
       <img src="https://img.shields.io/badge/Antigravity_AI-000000?style=flat&logo=googlebard&logoColor=4f46e5" alt="Antigravity" />
     </td>
     <td width="40%" style="border: none;" align="center" valign="center">
-      <img src="assets/animated-avatar.svg" alt="Tech AI Product Manager" width="100%" />
+      <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" alt="Crazy Fast Typing Kermit" width="100%" />
     </td>
   </tr>
 </table>
@@ -37,18 +40,18 @@
 <table width="100%" style="border: none; background: transparent;">
   <tr style="border: none;">
     <td width="55%" style="border: none;" valign="top">
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=aniketkrs&bg_color=000000&color=4f46e5&line=4f46e5&point=ffffff&area=true&hide_border=true&title_color=4f46e5" alt="Activity Graph" width="100%" />
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=aniketkrs&bg_color=000000&color=4f46e5&line=4f46e5&point=ffffff&area=true&hide_border=true&title_color=4f46e5&radius=15" alt="Activity Graph" width="100%" />
     </td>
     <td width="45%" style="border: none;" valign="top">
-      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=aniketkrs&layout=donut&show_icons=true&hide_border=true&bg_color=000000&title_color=4f46e5&icon_color=4f46e5&text_color=ffffff&card_width=400" alt="Top Languages" width="100%" />
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=aniketkrs&layout=donut&show_icons=true&hide_border=true&bg_color=000000&title_color=4f46e5&icon_color=4f46e5&text_color=ffffff&card_width=400&border_radius=15" alt="Top Languages" width="100%" />
     </td>
   </tr>
   <tr style="border: none;">
     <td width="55%" style="border: none;" valign="top">
-      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=aniketkrs&show_icons=true&hide_border=true&bg_color=000000&title_color=4f46e5&icon_color=4f46e5&text_color=ffffff" alt="GitHub Stats" width="100%" />
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=aniketkrs&show_icons=true&hide_border=true&bg_color=000000&title_color=4f46e5&icon_color=4f46e5&text_color=ffffff&border_radius=15" alt="GitHub Stats" width="100%" />
     </td>
     <td width="45%" style="border: none;" valign="top">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=aniketkrs&hide_border=true&background=000000&ring=4f46e5&fire=4f46e5&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=ffffff&sideLabels=ffffff&dates=ffffff&stroke=00000000" alt="GitHub Streak" width="100%" />
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=aniketkrs&hide_border=true&background=000000&ring=4f46e5&fire=4f46e5&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=ffffff&sideLabels=ffffff&dates=ffffff&stroke=00000000&border_radius=15" alt="GitHub Streak" width="100%" />
     </td>
   </tr>
 </table>
