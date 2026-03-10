@@ -24,45 +24,18 @@ for url in badges:
         with urllib.request.urlopen(req) as response:
             svg_data = response.read().decode('utf-8')
             svg_data = re.sub(r'<\?xml.*?\?>', '', svg_data).strip()
-            svgs.append(svg_data)
             print(f"Fetched {url.split('badge/')[1].split('-')[0]}")
     except Exception as e:
         print(f"Failed to fetch {url}: {e}")
-
 import base64
 
-master_svg = """<svg width="800" height="130" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .badge { transition: all 0.3s ease; cursor: pointer; }
-    .badge:hover { transform: translateY(-5px) scale(1.05); filter: drop-shadow(0 4px 8px rgba(79, 70, 229, 0.4)); }
-    @keyframes float1 { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
-    @keyframes float2 { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
-    @keyframes float3 { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
-    .b0 { animation: float1 3s ease-in-out infinite 0.1s; }
-    .b1 { animation: float2 3.2s ease-in-out infinite 0.2s; }
-    .b2 { animation: float3 2.8s ease-in-out infinite 0.3s; }
-    .b3 { animation: float1 3.1s ease-in-out infinite 0.4s; }
-    .b4 { animation: float2 2.9s ease-in-out infinite 0.5s; }
-    .b5 { animation: float3 3s ease-in-out infinite 0.6s; }
-    .b6 { animation: float1 3.3s ease-in-out infinite 0.7s; }
-    .b7 { animation: float2 2.7s ease-in-out infinite 0.8s; }
-    .b8 { animation: float3 3.1s ease-in-out infinite 0.9s; }
-    .b9 { animation: float1 2.9s ease-in-out infinite 1.0s; }
-  </style>
-  <g transform="translate(10, 20)">
-"""
-
+# Build the linear row of badges
+row_content = ""
 x = 0
-y = 0
 for i, svg in enumerate(svgs):
     match = re.search(r'<svg[^>]*width="(\d+(?:\.\d+)?)"', svg)
     width = float(match.group(1)) if match else 100
     
-    if x + width > 780:
-        x = 0
-        y += 50
-        
-    master_svg += f'    <g class="badge b{i}" transform="translate({x}, {y})">\n'
     inner = svg.replace('<svg', '<svg x="0" y="0"').replace('xmlns="http://www.w3.org/2000/svg"', '')
     
     # Extract base64 image and convert to nested SVG
@@ -77,7 +50,6 @@ for i, svg in enumerate(svgs):
                 inner_content = inner_content_match.group(1)
                 
                 # We need to scale the inner content to fit the space
-                # Most typical shield.io logos are 24x24 viewBoxes
                 scale_x = float(iw) / 24.0
                 scale_y = float(ih) / 24.0
                 scale = min(scale_x, scale_y)
@@ -91,11 +63,37 @@ for i, svg in enumerate(svgs):
         except Exception as e:
             print(f"Failed to decode base64 for badge {i}: {e}")
             
-    master_svg += "      " + inner + "\n"
-    master_svg += f'    </g>\n'
+    row_content += f'      <g transform="translate({x}, 0)">\n        {inner}\n      </g>\n'
     x += width + 15
 
-master_svg += """  </g>\n</svg>"""
+total_width = x
+
+# Create the master SVG with a wrapping marquee group
+master_svg = f"""<svg width="800" height="50" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes marquee {{
+      0% {{ transform: translateX(0); }}
+      100% {{ transform: translateX(-{total_width}px); }}
+    }}
+    .marquee-container {{
+      animation: marquee 25s linear infinite;
+    }}
+    .badge-row {{
+      transition: filter 0.3s;
+    }}
+    .badge-row:hover {{
+      filter: drop-shadow(0 4px 8px rgba(79, 70, 229, 0.4));
+    }}
+  </style>
+  <g class="marquee-container">
+    <g class="badge-row">
+{row_content}
+    </g>
+    <g class="badge-row" transform="translate({total_width}, 0)">
+{row_content}
+    </g>
+  </g>
+</svg>"""
 
 with open('/Users/abcom/.gemini/antigravity/scratch/aniketkrs/assets/animated-badges.svg', 'w') as f:
     f.write(master_svg)
