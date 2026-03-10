@@ -94,7 +94,7 @@ def create_header(text, filename):
       <stop offset="100%" style="stop-color:#a855f7;stop-opacity:1" />
     </linearGradient>
   </defs>
-  <text x="400" y="55" font-family="'Arial Black', Gadget, sans-serif" font-size="42" font-weight="900" fill="url(#grad)" text-anchor="middle" letter-spacing="2">{text}</text>
+  <text x="400" y="55" font-family="'Trebuchet MS', 'Lucida Grande', Arial, sans-serif" font-size="40" font-weight="900" fill="url(#grad)" text-anchor="middle" letter-spacing="6">{text}</text>
 </svg>"""
     # Light version — Deep Navy to Ocean Blue gradient
     svg_light = f"""<svg width="800" height="80" xmlns="http://www.w3.org/2000/svg">
@@ -104,7 +104,7 @@ def create_header(text, filename):
       <stop offset="100%" style="stop-color:#0284c7;stop-opacity:1" />
     </linearGradient>
   </defs>
-  <text x="400" y="55" font-family="'Arial Black', Gadget, sans-serif" font-size="42" font-weight="900" fill="url(#grad)" text-anchor="middle" letter-spacing="2">{text}</text>
+  <text x="400" y="55" font-family="'Trebuchet MS', 'Lucida Grande', Arial, sans-serif" font-size="40" font-weight="900" fill="url(#grad)" text-anchor="middle" letter-spacing="6">{text}</text>
 </svg>"""
     with open(f'/Users/abcom/.gemini/antigravity/scratch/aniketkrs/assets/{filename}-dark.svg', 'w') as f:
         f.write(svg_dark)
@@ -128,7 +128,7 @@ readme_content = f"""<div align="center">
 </div>
 
 <div align="center" style="margin-top: -10px; margin-bottom: 20px;">
-  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDNxazFhdTRsemwzbHkxdmtsaGE2MHloYWkydXh2ZHJtOWs3OHc3aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WWvEKfHYy5TGiJPS4L/giphy.gif" alt="Aniket Kumar Avatar" width="100%" style="border-radius: 20px; box-shadow: 0 4px 14px rgba(0,0,0,0.2);" />
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDNxazFhdTRsemwzbHkxdmtsaGE2MHloYWkydXh2ZHJtOWs3OHc3aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WWvEKfHYy5TGiJPS4L/giphy.gif" alt="Aniket Kumar Avatar" width="75%" style="border-radius: 20px; box-shadow: 0 4px 14px rgba(0,0,0,0.2);" />
 </div>
 <br>
 
@@ -140,7 +140,7 @@ readme_content = f"""<div align="center">
   <img alt="About Me" src="assets/header-about-dark.svg?v={ts}" width="100%" />
 </picture>
 
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1500&color=6366f1&center=true&vCenter=true&multiline=true&width=800&height=220&lines=Product+Manager+transitioned+from+Designer.;I+love+building+features+and+making+user+experiences;seamless+and+good,+thinking+for+the+long+term.;I+love+to+play+and+experiment+with+new+tools+and+features.;Now+on+the+journey+of+building+AI+products;and+I+love+to+read+books+and+write+articles.&v={ts}" alt="Typing Intro" width="100%" />
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&pause=1500&color=6366f1&center=true&vCenter=true&multiline=true&width=800&height=220&lines=Product+Manager+transitioned+from+Designer.;I+love+building+features+and+making+user+experiences;seamless+and+good,+thinking+for+the+long+term.;I+love+to+play+and+experiment+with+new+tools+and+features.;Now+on+the+journey+of+building+AI+products;and+I+love+to+read+books+and+write+articles.&v={ts}" alt="Typing Intro" width="100%" />
 </div>
 <br>
 
@@ -171,7 +171,7 @@ readme_content = f"""<div align="center">
 
 <div align="center">
   <a href="https://github.com/aniketkrs">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=aniketkrs&bg_color=0d1117&color=6366f1&line=a855f7&point=ffffff&area=true&hide_border=true&title_color=e0e7ff&radius=12&custom_title=Contribution+Graph&v={ts}" alt="Contribution Graph" width="100%" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=aniketkrs&bg_color=0d1117&color=6366f1&line=a855f7&point=ffffff&area=true&hide_border=true&title_color=e0e7ff&radius=12&custom_title=Contribution+Graph" alt="Contribution Graph" width="100%" />
   </a>
 </div>
 
@@ -179,12 +179,12 @@ readme_content = f"""<div align="center">
   <tr>
     <td width="50%" align="center" style="border: none;">
       <a href="https://github.com/aniketkrs">
-        <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=aniketkrs&layout=compact&show_icons=true&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=a855f7&text_color=e0e7ff&border_radius=12&v={ts}" alt="Top Languages" width="100%" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aniketkrs&layout=compact&show_icons=true&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=a855f7&text_color=e0e7ff&border_radius=12&count_private=true" alt="Top Languages" width="100%" />
       </a>
     </td>
     <td width="50%" align="center" style="border: none;">
       <a href="https://github.com/aniketkrs">
-        <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=aniketkrs&show_icons=true&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=a855f7&text_color=e0e7ff&border_radius=12&v={ts}" alt="GitHub Stats" width="100%" />
+        <img src="https://github-readme-stats.vercel.app/api?username=aniketkrs&show_icons=true&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=a855f7&text_color=e0e7ff&border_radius=12&count_private=true&include_all_commits=true" alt="GitHub Stats" width="100%" />
       </a>
     </td>
   </tr>
@@ -192,7 +192,7 @@ readme_content = f"""<div align="center">
 
 <div align="center">
   <a href="https://github.com/aniketkrs">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=aniketkrs&hide_border=true&background=0d1117&ring=6366f1&fire=a855f7&currStreakNum=e0e7ff&sideNums=e0e7ff&currStreakLabel=a855f7&sideLabels=6366f1&dates=94a3b8&stroke=00000000&border_radius=12&v={ts}" alt="GitHub Streak" width="100%" />
+    <img src="https://streak-stats.demolab.com/?user=aniketkrs&hide_border=true&background=0d1117&ring=6366f1&fire=a855f7&currStreakNum=e0e7ff&sideNums=e0e7ff&currStreakLabel=a855f7&sideLabels=6366f1&dates=94a3b8&stroke=00000000&border_radius=12" alt="GitHub Streak" width="100%" />
   </a>
 </div>
 <br>
