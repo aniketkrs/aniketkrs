@@ -109,7 +109,7 @@ readme_content = f"""<div align="center">
 </div>
 
 <div align="center" style="margin-top: -20px; margin-bottom: 10px;">
-  <img src="assets/profile_pic.png?v={ts}" alt="Aniket Kumar Avatar" width="220" style="border-radius: 50%; box-shadow: 0 0 20px rgba(16,185,129,0.4); border: 4px solid #10B981;" />
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDNxazFhdTRsemwzbHkxdmtsaGE2MHloYWkydXh2ZHJtOWs3OHc3aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WWvEKfHYy5TGiJPS4L/giphy.gif" alt="Aniket Kumar Avatar" width="100%" style="border-radius: 24px; box-shadow: 0 0 20px rgba(16,185,129,0.4); border: 2px solid #10B981;" />
 </div>
 
 <div align="center">
