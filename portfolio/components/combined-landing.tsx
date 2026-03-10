@@ -8,6 +8,8 @@ import { ShaderAnimation } from "@/components/ui/shader-animation";
 import AnimatedShaderHero from "@/components/ui/animated-shader-hero";
 import { LandingAccordionItem } from "@/components/ui/interactive-image-accordion";
 
+import DemoScroll from "@/components/demo-scroll";
+
 // This is the combined view of the physics engine
 function GravityHero() {
     return (
@@ -142,6 +144,11 @@ export default function CombinedLandingPage() {
             {/* 7. Interactive Image Accordion */}
             <section className="relative w-full">
                 <LandingAccordionItem />
+            </section>
+
+            {/* 8. Full Screen Scroll FX */}
+            <section className="relative w-full">
+                <DemoScroll />
             </section>
 
         </main>
