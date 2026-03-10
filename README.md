@@ -22,7 +22,20 @@
 <br><br><br>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,figma&theme=dark" alt="Skills" />
+  <img src="https://img.shields.io/badge/Figma-09090b?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
+  <img src="https://img.shields.io/badge/Jira-09090b?style=for-the-badge&logo=jira&logoColor=white" alt="Jira" />
+  <img src="https://img.shields.io/badge/Notion-09090b?style=for-the-badge&logo=notion&logoColor=white" alt="Notion" />
+  <img src="https://img.shields.io/badge/Linear-09090b?style=for-the-badge&logo=linear&logoColor=white" alt="Linear" />
+  <img src="https://img.shields.io/badge/Framer-09090b?style=for-the-badge&logo=framer&logoColor=white" alt="Framer" />
+  <br><br>
+  <img src="https://img.shields.io/badge/Mixpanel-09090b?style=for-the-badge&logo=mixpanel&logoColor=white" alt="Mixpanel" />
+  <img src="https://img.shields.io/badge/Hotjar-09090b?style=for-the-badge&logo=hotjar&logoColor=white" alt="Hotjar" />
+  <img src="https://img.shields.io/badge/Google%20Analytics-09090b?style=for-the-badge&logo=googleanalytics&logoColor=white" alt="GA4" />
+  <br><br>
+  <img src="https://img.shields.io/badge/Claude-09090b?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" />
+  <img src="https://img.shields.io/badge/Antigravity_AI-09090b?style=for-the-badge&logo=googlebard&logoColor=white" alt="Antigravity" />
+  <img src="https://img.shields.io/badge/AI_Studio-09090b?style=for-the-badge&logo=google&logoColor=white" alt="AI Studio" />
+  <img src="https://img.shields.io/badge/GitHub-09090b?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </div>
 
 <br><br><br>
