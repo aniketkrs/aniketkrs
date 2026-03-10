@@ -71,22 +71,8 @@ total_width = x
 
 # Create the master SVG with a wrapping marquee group
 master_svg = f"""<svg width="800" height="50" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    @keyframes marquee {{
-      0% {{ transform: translateX(0); }}
-      100% {{ transform: translateX(-{total_width}px); }}
-    }}
-    .marquee-container {{
-      animation: marquee 25s linear infinite;
-    }}
-    .badge-row {{
-      transition: filter 0.3s;
-    }}
-    .badge-row:hover {{
-      filter: drop-shadow(0 4px 8px rgba(79, 70, 229, 0.4));
-    }}
-  </style>
-  <g class="marquee-container">
+  <g>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-{total_width} 0" dur="25s" repeatCount="indefinite" />
     <g class="badge-row">
 {row_content}
     </g>
@@ -99,6 +85,23 @@ master_svg = f"""<svg width="800" height="50" xmlns="http://www.w3.org/2000/svg"
 with open('/Users/abcom/.gemini/antigravity/scratch/aniketkrs/assets/animated-badges.svg', 'w') as f:
     f.write(master_svg)
 
+def create_header(text, filename):
+    svg = f"""<svg width="800" height="80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4f46e5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <text x="400" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="36" font-weight="900" fill="url(#grad)" text-anchor="middle" letter-spacing="3">{text}</text>
+</svg>"""
+    with open(f'/Users/abcom/.gemini/antigravity/scratch/aniketkrs/assets/{filename}.svg', 'w') as f:
+        f.write(svg)
+
+create_header("ABOUT ME", "header-about")
+create_header("PRODUCT STACK", "header-stack")
+create_header("GITHUB METRICS", "header-stats")
+
 ts = datetime.now().timestamp()
 
 readme_content = f"""<div align="center">
@@ -110,17 +113,21 @@ readme_content = f"""<div align="center">
 </div>
 
 <div align="center">
-  <h2 align="center">About Me</h2>
-  <img src="https://readme-typing-svg.demolab.com?font=SF+Pro+Display&weight=500&size=16&pause=1500&color=a1a1aa&center=true&vCenter=true&multiline=true&width=800&height=170&lines=Product+Manager+transitioned+from+Designer.;I+love+building+features+and+making+user+experiences;seamless+and+good,+thinking+for+the+long+term.;I+love+to+play+and+experiment+with+new+tools+and+features.;Now+on+the+journey+of+building+AI+products;and+I+love+to+read+books+and+write+articles.&v={ts}" alt="Typing Intro" width="100%" />
+  <img src="assets/header-about.svg?v={ts}" alt="About Me" width="100%" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=500&size=20&pause=1500&color=f4f4f5&center=true&vCenter=true&multiline=true&width=800&height=220&lines=Product+Manager+transitioned+from+Designer.;I+love+building+features+and+making+user+experiences;seamless+and+good,+thinking+for+the+long+term.;I+love+to+play+and+experiment+with+new+tools+and+features.;Now+on+the+journey+of+building+AI+products;and+I+love+to+read+books+and+write+articles.&v={ts}" alt="Typing Intro" width="100%" />
 </div>
 
-<h2 align="center">Product Stack</h2>
+<div align="center">
+  <img src="assets/header-stack.svg?v={ts}" alt="Product Stack" width="100%" />
+</div>
 
 <div align="center">
   <img src="assets/animated-badges.svg?v={ts}" alt="Product Stack Badges" width="100%" />
 </div>
 
-<h2 align="center">GitHub Activity &amp; Stats</h2>
+<div align="center">
+  <img src="assets/header-stats.svg?v={ts}" alt="GitHub Metrics" width="100%" />
+</div>
 
 <table width="100%" style="border-collapse: collapse; border: none;">
   <tr>
