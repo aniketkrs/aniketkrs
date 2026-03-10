@@ -1,0 +1,69 @@
+<svg width="800" height="80" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .badge {
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+    .badge:hover {
+      transform: translateY(-5px) scale(1.1);
+      filter: drop-shadow(0 4px 8px rgba(79, 70, 229, 0.4));
+    }
+    @keyframes float1 { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+    @keyframes float2 { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+    @keyframes float3 { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
+    
+    .b1 { animation: float1 3s ease-in-out infinite 0.1s; }
+    .b2 { animation: float2 3.2s ease-in-out infinite 0.2s; }
+    .b3 { animation: float3 2.8s ease-in-out infinite 0.3s; }
+    .b4 { animation: float1 3.1s ease-in-out infinite 0.4s; }
+    .b5 { animation: float2 2.9s ease-in-out infinite 0.5s; }
+    .b6 { animation: float3 3s ease-in-out infinite 0.6s; }
+    .b7 { animation: float1 3.3s ease-in-out infinite 0.7s; }
+    .b8 { animation: float2 2.7s ease-in-out infinite 0.8s; }
+    .b9 { animation: float3 3.1s ease-in-out infinite 0.9s; }
+    .b10 { animation: float1 2.9s ease-in-out infinite 1.0s; }
+  </style>
+
+  <g transform="translate(10, 20)">
+    <!-- Figma -->
+    <g class="badge b1" transform="translate(0, 0)">
+      <image href="https://img.shields.io/badge/Figma-000000?style=for-the-badge&amp;logo=figma&amp;logoColor=4f46e5" width="80" height="28" />
+    </g>
+    <!-- Jira -->
+    <g class="badge b2" transform="translate(90, 0)">
+      <image href="https://img.shields.io/badge/Jira-000000?style=for-the-badge&amp;logo=jira&amp;logoColor=4f46e5" width="70" height="28" />
+    </g>
+    <!-- Notion -->
+    <g class="badge b3" transform="translate(170, 0)">
+      <image href="https://img.shields.io/badge/Notion-000000?style=for-the-badge&amp;logo=notion&amp;logoColor=4f46e5" width="85" height="28" />
+    </g>
+    <!-- Linear -->
+    <g class="badge b4" transform="translate(265, 0)">
+      <image href="https://img.shields.io/badge/Linear-000000?style=for-the-badge&amp;logo=linear&amp;logoColor=4f46e5" width="85" height="28" />
+    </g>
+    <!-- Framer -->
+    <g class="badge b5" transform="translate(360, 0)">
+      <image href="https://img.shields.io/badge/Framer-000000?style=for-the-badge&amp;logo=framer&amp;logoColor=4f46e5" width="90" height="28" />
+    </g>
+    <!-- Mixpanel -->
+    <g class="badge b6" transform="translate(460, 0)">
+      <image href="https://img.shields.io/badge/Mixpanel-000000?style=for-the-badge&amp;logo=mixpanel&amp;logoColor=4f46e5" width="105" height="28" />
+    </g>
+    <!-- Hotjar -->
+    <g class="badge b7" transform="translate(575, 0)">
+      <image href="https://img.shields.io/badge/Hotjar-000000?style=for-the-badge&amp;logo=hotjar&amp;logoColor=4f46e5" width="85" height="28" />
+    </g>
+    <!-- GA4 -->
+    <g class="badge b8" transform="translate(670, 0)">
+      <image href="https://img.shields.io/badge/GA4-000000?style=for-the-badge&amp;logo=googleanalytics&amp;logoColor=4f46e5" width="65" height="28" />
+    </g>
+    <!-- Claude -->
+    <g class="badge b9" transform="translate(0, 40)">
+      <image href="https://img.shields.io/badge/Claude-000000?style=for-the-badge&amp;logo=anthropic&amp;logoColor=4f46e5" width="90" height="28" />
+    </g>
+    <!-- Antigravity -->
+    <g class="badge b10" transform="translate(100, 40)">
+      <image href="https://img.shields.io/badge/Antigravity-000000?style=for-the-badge&amp;logo=googlebard&amp;logoColor=4f46e5" width="130" height="28" />
+    </g>
+  </g>
+</svg>
