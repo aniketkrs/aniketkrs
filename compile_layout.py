@@ -75,7 +75,7 @@ for i, svg in enumerate(svgs):
             inner_content_match = re.search(r'<svg[^>]*>(.*)</svg>', decoded_svg, re.DOTALL)
             if inner_content_match:
                 inner_content = inner_content_match.group(1)
-                replacement = f'<svg x="{ix}" y="{iy}" width="{iw}" height="{ih}" viewBox="0 0 24 24">{inner_content}</svg>'
+                replacement = f'<svg x="{ix}" y="{iy}" width="{iw}" height="{ih}" viewBox="0 0 24 24" overflow="visible">{inner_content}</svg>'
                 inner = inner[:img_match.start()] + replacement + inner[img_match.end():]
         except Exception as e:
             print(f"Failed to decode base64 for badge {i}: {e}")
