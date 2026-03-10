@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/animated-header-dark.svg?v=1773167939.134283">
-  <source media="(prefers-color-scheme: light)" srcset="assets/animated-header-light.svg?v=1773167939.134283">
-  <img alt="Aniket Kumar" src="assets/animated-header-dark.svg?v=1773167939.134283" width="100%" />
+  <source media="(prefers-color-scheme: dark)"  srcset="assets/animated-header-dark.svg?v=1773168540.620097">
+  <source media="(prefers-color-scheme: light)" srcset="assets/animated-header-light.svg?v=1773168540.620097">
+  <img alt="Aniket Kumar" src="assets/animated-header-dark.svg?v=1773168540.620097" width="100%" />
 </picture>
 
 <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDNxazFhdTRsemwzbHkxdmtsaGE2MHloYWkydXh2ZHJtOWs3OHc3aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WWvEKfHYy5TGiJPS4L/giphy.gif" alt="Aniket Kumar" width="65%" style="border-radius: 16px;" />
@@ -15,9 +15,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/header-about-dark.svg?v=1773167939.134283">
-  <source media="(prefers-color-scheme: light)" srcset="assets/header-about-light.svg?v=1773167939.134283">
-  <img alt="About Me" src="assets/header-about-dark.svg?v=1773167939.134283" width="60%" />
+  <source media="(prefers-color-scheme: dark)"  srcset="assets/header-about-dark.svg?v=1773168540.620097">
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-about-light.svg?v=1773168540.620097">
+  <img alt="About Me" src="assets/header-about-dark.svg?v=1773168540.620097" width="60%" />
 </picture>
 
 </div>
@@ -29,12 +29,12 @@ Product Manager transitioned from Designer. I love building features and making 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/header-stack-dark.svg?v=1773167939.134283">
-  <source media="(prefers-color-scheme: light)" srcset="assets/header-stack-light.svg?v=1773167939.134283">
-  <img alt="Product Stack" src="assets/header-stack-dark.svg?v=1773167939.134283" width="60%" />
+  <source media="(prefers-color-scheme: dark)"  srcset="assets/header-stack-dark.svg?v=1773168540.620097">
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-stack-light.svg?v=1773168540.620097">
+  <img alt="Product Stack" src="assets/header-stack-dark.svg?v=1773168540.620097" width="60%" />
 </picture>
 
-<img src="assets/animated-badges.svg?v=1773167939.134283" alt="Product Stack Badges" width="100%" />
+<img src="assets/animated-badges.svg?v=1773168540.620097" alt="Product Stack Badges" width="100%" />
 
 </div>
 
@@ -43,9 +43,9 @@ Product Manager transitioned from Designer. I love building features and making 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/header-stats-dark.svg?v=1773167939.134283">
-  <source media="(prefers-color-scheme: light)" srcset="assets/header-stats-light.svg?v=1773167939.134283">
-  <img alt="GitHub Metrics" src="assets/header-stats-dark.svg?v=1773167939.134283" width="60%" />
+  <source media="(prefers-color-scheme: dark)"  srcset="assets/header-stats-dark.svg?v=1773168540.620097">
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-stats-light.svg?v=1773168540.620097">
+  <img alt="GitHub Metrics" src="assets/header-stats-dark.svg?v=1773168540.620097" width="60%" />
 </picture>
 
 <a href="https://github.com/aniketkrs">
