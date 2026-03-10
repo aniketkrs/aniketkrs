@@ -2,25 +2,24 @@
   <img src="assets/animated-header.svg?v=1773163508.718731" alt="Aniket Kumar" width="100%" />
 </div>
 
-<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-top: -20px;">
-  <div style="width: 58%;">
-    <h2>About Me</h2>
-    <img src="https://readme-typing-svg.demolab.com?font=SF+Pro+Display&weight=500&size=16&pause=1500&color=a1a1aa&center=false&vCenter=false&width=600&height=30&lines=Product+Manager+turned+from+Designer.;Obsessed+with+seamless,+long-term+user+experiences.;Currently+building+next-gen+products+using+AI.;Always+experimenting+with+new+tools+and+features.;Avid+reader+and+tech+article+writer.&v=1773163508.718731" alt="Typing Intro" />
-    <h2 style="margin-top: 5px;">Product Stack:</h2>
-    <img src="https://img.shields.io/badge/Figma-000000?style=flat&logo=figma&logoColor=4f46e5" alt="Figma" />
-    <img src="https://img.shields.io/badge/Jira-000000?style=flat&logo=jira&logoColor=4f46e5" alt="Jira" />
-    <img src="https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=4f46e5" alt="Notion" />
-    <img src="https://img.shields.io/badge/Linear-000000?style=flat&logo=linear&logoColor=4f46e5" alt="Linear" />
-    <img src="https://img.shields.io/badge/Framer-000000?style=flat&logo=framer&logoColor=4f46e5" alt="Framer" />
-    <img src="https://img.shields.io/badge/Mixpanel-000000?style=flat&logo=mixpanel&logoColor=4f46e5" alt="Mixpanel" />
-    <img src="https://img.shields.io/badge/Hotjar-000000?style=flat&logo=hotjar&logoColor=4f46e5" alt="Hotjar" />
-    <img src="https://img.shields.io/badge/GA4-000000?style=flat&logo=googleanalytics&logoColor=4f46e5" alt="GA4" />
-    <img src="https://img.shields.io/badge/Claude-000000?style=flat&logo=anthropic&logoColor=4f46e5" alt="Claude" />
-    <img src="https://img.shields.io/badge/Antigravity_AI-000000?style=flat&logo=googlebard&logoColor=4f46e5" alt="Antigravity" />
-  </div>
-  <div style="width: 40%; text-align: center;">
-    <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" alt="Crazy Fast Typing Kermit" width="100%" />
-  </div>
+<div align="center" style="margin-top: -20px; margin-bottom: 20px;">
+  <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" alt="Crazy Fast Typing Kermit" width="300" style="border-radius: 24px;" />
+</div>
+
+<div style="width: 100%;">
+  <h2>About Me</h2>
+  <img src="https://readme-typing-svg.demolab.com?font=SF+Pro+Display&weight=500&size=16&pause=1500&color=a1a1aa&center=false&vCenter=false&width=800&height=30&lines=Product+Manager+turned+from+Designer.;Obsessed+with+seamless,+long-term+user+experiences.;Currently+building+next-gen+products+using+AI.;Always+experimenting+with+new+tools+and+features.;Avid+reader+and+tech+article+writer.&v=1773163508.718731" alt="Typing Intro" width="100%" />
+  <h2 style="margin-top: 5px;">Product Stack:</h2>
+  <img src="https://img.shields.io/badge/Figma-000000?style=flat&logo=figma&logoColor=4f46e5" alt="Figma" />
+  <img src="https://img.shields.io/badge/Jira-000000?style=flat&logo=jira&logoColor=4f46e5" alt="Jira" />
+  <img src="https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=4f46e5" alt="Notion" />
+  <img src="https://img.shields.io/badge/Linear-000000?style=flat&logo=linear&logoColor=4f46e5" alt="Linear" />
+  <img src="https://img.shields.io/badge/Framer-000000?style=flat&logo=framer&logoColor=4f46e5" alt="Framer" />
+  <img src="https://img.shields.io/badge/Mixpanel-000000?style=flat&logo=mixpanel&logoColor=4f46e5" alt="Mixpanel" />
+  <img src="https://img.shields.io/badge/Hotjar-000000?style=flat&logo=hotjar&logoColor=4f46e5" alt="Hotjar" />
+  <img src="https://img.shields.io/badge/GA4-000000?style=flat&logo=googleanalytics&logoColor=4f46e5" alt="GA4" />
+  <img src="https://img.shields.io/badge/Claude-000000?style=flat&logo=anthropic&logoColor=4f46e5" alt="Claude" />
+  <img src="https://img.shields.io/badge/Antigravity_AI-000000?style=flat&logo=googlebard&logoColor=4f46e5" alt="Antigravity" />
 </div>
 
 <div style="margin-top: -10px;">
