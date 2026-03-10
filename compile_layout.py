@@ -179,12 +179,12 @@ readme_content = f"""<div align="center">
   <tr>
     <td width="50%" align="center" style="border: none;">
       <a href="https://github.com/aniketkrs">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aniketkrs&layout=compact&show_icons=true&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=a855f7&text_color=e0e7ff&border_radius=12&count_private=true" alt="Top Languages" width="100%" />
+        <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=aniketkrs&layout=compact&show_icons=true&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=a855f7&text_color=e0e7ff&border_radius=12&count_private=true" alt="Top Languages" width="100%" />
       </a>
     </td>
     <td width="50%" align="center" style="border: none;">
       <a href="https://github.com/aniketkrs">
-        <img src="https://github-readme-stats.vercel.app/api?username=aniketkrs&show_icons=true&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=a855f7&text_color=e0e7ff&border_radius=12&count_private=true&include_all_commits=true" alt="GitHub Stats" width="100%" />
+        <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=aniketkrs&show_icons=true&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=a855f7&text_color=e0e7ff&border_radius=12&count_private=true&include_all_commits=true" alt="GitHub Stats" width="100%" />
       </a>
     </td>
   </tr>
