@@ -86,35 +86,13 @@ with open('/Users/abcom/.gemini/antigravity/scratch/aniketkrs/assets/animated-ba
     f.write(master_svg)
 
 def create_header(text, filename):
-    common_style = """
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap');
-  </style>"""
-    # Dark version — Indigo to Violet gradient
-    svg_dark = f"""<svg width="800" height="80" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap');
-  </style>
-  <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#a855f7;stop-opacity:1" />
-    </linearGradient>
-  </defs>
-  <text x="400" y="52" font-family="'Press Start 2P', 'Courier New', monospace" font-size="26" font-weight="400" fill="url(#grad)" text-anchor="middle">{text}</text>
+    # Dark mode — off-white on dark, no gradient
+    svg_dark = f"""<svg width="800" height="72" xmlns="http://www.w3.org/2000/svg">
+  <text x="400" y="48" font-family="'Space Mono', 'Courier New', Courier, monospace" font-size="30" font-weight="700" fill="#e2e8f0" text-anchor="middle" letter-spacing="3">{text}</text>
 </svg>"""
-    # Light version — Deep Navy to Ocean Blue gradient
-    svg_light = f"""<svg width="800" height="80" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap');
-  </style>
-  <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#1e40af;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#0284c7;stop-opacity:1" />
-    </linearGradient>
-  </defs>
-  <text x="400" y="52" font-family="'Press Start 2P', 'Courier New', monospace" font-size="26" font-weight="400" fill="url(#grad)" text-anchor="middle">{text}</text>
+    # Light mode — deep navy on white, no gradient
+    svg_light = f"""<svg width="800" height="72" xmlns="http://www.w3.org/2000/svg">
+  <text x="400" y="48" font-family="'Space Mono', 'Courier New', Courier, monospace" font-size="30" font-weight="700" fill="#0f172a" text-anchor="middle" letter-spacing="3">{text}</text>
 </svg>"""
     with open(f'/Users/abcom/.gemini/antigravity/scratch/aniketkrs/assets/{filename}-dark.svg', 'w') as f:
         f.write(svg_dark)

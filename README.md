@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/animated-header-dark.svg?v=1773167522.658642">
-  <source media="(prefers-color-scheme: light)" srcset="assets/animated-header-light.svg?v=1773167522.658642">
-  <img alt="Aniket Kumar" src="assets/animated-header-dark.svg?v=1773167522.658642" width="100%" />
+  <source media="(prefers-color-scheme: dark)"  srcset="assets/animated-header-dark.svg?v=1773167697.925652">
+  <source media="(prefers-color-scheme: light)" srcset="assets/animated-header-light.svg?v=1773167697.925652">
+  <img alt="Aniket Kumar" src="assets/animated-header-dark.svg?v=1773167697.925652" width="100%" />
 </picture>
 
 </div>
@@ -16,36 +16,36 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/header-about-dark.svg?v=1773167522.658642">
-  <source media="(prefers-color-scheme: light)" srcset="assets/header-about-light.svg?v=1773167522.658642">
-  <img alt="About Me" src="assets/header-about-dark.svg?v=1773167522.658642" width="100%" />
+  <source media="(prefers-color-scheme: dark)"  srcset="assets/header-about-dark.svg?v=1773167697.925652">
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-about-light.svg?v=1773167697.925652">
+  <img alt="About Me" src="assets/header-about-dark.svg?v=1773167697.925652" width="100%" />
 </picture>
 
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=500&size=20&pause=1500&color=FFFFFF&center=true&vCenter=true&multiline=true&width=800&height=220&lines=Product+Manager+transitioned+from+Designer.;I+love+building+features+and+making+user+experiences;seamless+and+good,+thinking+for+the+long+term.;I+love+to+play+and+experiment+with+new+tools+and+features.;Now+on+the+journey+of+building+AI+products;and+I+love+to+read+books+and+write+articles.&v=1773167522.658642" alt="Typing Intro" width="100%" />
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=500&size=20&pause=1500&color=FFFFFF&center=true&vCenter=true&multiline=true&width=800&height=220&lines=Product+Manager+transitioned+from+Designer.;I+love+building+features+and+making+user+experiences;seamless+and+good,+thinking+for+the+long+term.;I+love+to+play+and+experiment+with+new+tools+and+features.;Now+on+the+journey+of+building+AI+products;and+I+love+to+read+books+and+write+articles.&v=1773167697.925652" alt="Typing Intro" width="100%" />
 </div>
 <br>
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/header-stack-dark.svg?v=1773167522.658642">
-  <source media="(prefers-color-scheme: light)" srcset="assets/header-stack-light.svg?v=1773167522.658642">
-  <img alt="Product Stack" src="assets/header-stack-dark.svg?v=1773167522.658642" width="100%" />
+  <source media="(prefers-color-scheme: dark)"  srcset="assets/header-stack-dark.svg?v=1773167697.925652">
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-stack-light.svg?v=1773167697.925652">
+  <img alt="Product Stack" src="assets/header-stack-dark.svg?v=1773167697.925652" width="100%" />
 </picture>
 
 </div>
 
 <div align="center">
-  <img src="assets/animated-badges.svg?v=1773167522.658642" alt="Product Stack Badges" width="100%" />
+  <img src="assets/animated-badges.svg?v=1773167697.925652" alt="Product Stack Badges" width="100%" />
 </div>
 <br>
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/header-stats-dark.svg?v=1773167522.658642">
-  <source media="(prefers-color-scheme: light)" srcset="assets/header-stats-light.svg?v=1773167522.658642">
-  <img alt="GitHub Metrics" src="assets/header-stats-dark.svg?v=1773167522.658642" width="100%" />
+  <source media="(prefers-color-scheme: dark)"  srcset="assets/header-stats-dark.svg?v=1773167697.925652">
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-stats-light.svg?v=1773167697.925652">
+  <img alt="GitHub Metrics" src="assets/header-stats-dark.svg?v=1773167697.925652" width="100%" />
 </picture>
 
 </div>
@@ -79,5 +79,5 @@
 <br>
 
 <div align="center" style="margin-top: -10px;">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=6366f1,a855f7&height=100&section=footer&v=1773167522.658642" width="100%" alt="Footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=6366f1,a855f7&height=100&section=footer&v=1773167697.925652" width="100%" alt="Footer"/>
 </div>
