@@ -2,10 +2,22 @@
   <style>
     @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&amp;display=swap");
     
+    :root {
+      --text-color: #ffffff;
+      --glow-color: #6366f1;
+    }
+    
+    @media (prefers-color-scheme: light) {
+      :root {
+        --text-color: #0f172a;
+        --glow-color: #3b82f6;
+      }
+    }
+
     @keyframes cyber-pulse {
-      0% { text-shadow: 0 0 10px #4F46E5, 0 0 20px #4F46E5; filter: brightness(1); }
-      50% { text-shadow: 0 0 20px #4F46E5, 0 0 40px #4F46E5; filter: brightness(1.2) hue-rotate(15deg); }
-      100% { text-shadow: 0 0 10px #4F46E5, 0 0 20px #4F46E5; filter: brightness(1); }
+      0% { text-shadow: 0 0 10px var(--glow-color), 0 0 20px var(--glow-color); filter: brightness(1); }
+      50% { text-shadow: 0 0 20px var(--glow-color), 0 0 40px var(--glow-color); filter: brightness(1.2) hue-rotate(15deg); }
+      100% { text-shadow: 0 0 10px var(--glow-color), 0 0 20px var(--glow-color); filter: brightness(1); }
     }
 
     @keyframes glitch {
@@ -19,13 +31,9 @@
       font-family: "Fira Code", monospace;
       font-weight: 700;
       font-size: 14px;
-      fill: #ffffff;
+      fill: var(--text-color);
       animation: cyber-pulse 3s infinite, glitch 5s infinite;
       white-space: pre;
-    }
-    
-    .accent {
-      fill: #4F46E5;
     }
   </style>
   
