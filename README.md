@@ -1,5 +1,11 @@
 <div align="center">
-  <img src="grid-banner.svg" alt="Animated Grid Banner" width="100%" />
+<pre style="font-family: monospace; font-weight: bold; font-size: 14px; text-shadow: 0 0 5px rgba(139, 92, 246, 0.5); color: #8b5cf6;">
+    ___          _ __        __     __ __
+   /   |  ____  (_) /_____  / /_   / //_/_  ______ ___  ____ ______
+  / /| | / __ \/ / //_/ _ \/ __/  / ,&lt; / / / / __ `__ \/ __ `/ ___/
+ / ___ |/ / / / / ,&lt; /  __/ /_   / /| / /_/ / / / / / / /_/ / /
+/_/  |_/_/ /_/_/_/|_|\___/\__/  /_/ |_\__,_/_/ /_/ /_/\__,_/_/
+</pre>
 </div>
 
 <br>
