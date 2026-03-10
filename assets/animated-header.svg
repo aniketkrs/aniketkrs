@@ -1,0 +1,36 @@
+<svg width="800" height="120" viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&amp;display=swap');
+    
+    @keyframes cyber-pulse {
+      0% { text-shadow: 0 0 10px #4F46E5, 0 0 20px #4F46E5; filter: brightness(1); }
+      50% { text-shadow: 0 0 20px #4F46E5, 0 0 40px #4F46E5; filter: brightness(1.2) hue-rotate(15deg); }
+      100% { text-shadow: 0 0 10px #4F46E5, 0 0 20px #4F46E5; filter: brightness(1); }
+    }
+
+    @keyframes glitch {
+      0%, 96%, 100% { transform: translate(0); }
+      97% { transform: translate(-3px, 2px); }
+      98% { transform: translate(3px, -2px); }
+      99% { transform: translate(-3px, 0); }
+    }
+
+    .ascii-text {
+      font-family: 'Fira Code', monospace;
+      font-weight: 700;
+      font-size: 16px;
+      fill: #ffffff;
+      animation: cyber-pulse 3s infinite, glitch 5s infinite;
+      white-space: pre;
+    }
+    
+    .accent {
+      fill: #4F46E5;
+    }
+  </style>
+  
+  <g transform="translate(400, 60)" text-anchor="middle">
+    <text x="0" y="-12" class="ascii-text">▄▀█ █▄░█ █ █▄▀ █▀▀ ▀█▀<tspan class="accent">   </tspan>█▄▀ █░█ █▀▄▀█ ▄▀█ █▀█</text>
+    <text x="0" y="12" class="ascii-text">█▀█ █░▀█ █ █░█ ██▄ ░█░<tspan class="accent">   </tspan>█░█ █▄█ █░▀░█ █▀█ █▀▄</text>
+  </g>
+</svg>
