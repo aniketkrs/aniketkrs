@@ -71,11 +71,22 @@ for i, svg in enumerate(svgs):
         ix, iy, iw, ih, b64 = img_match.groups()
         try:
             decoded_svg = base64.b64decode(b64).decode('utf-8')
-            # Extract just the inner parts of the decoded SVG, and add our own wrapper
+            # Extract just the inner path/shapes from the decoded SVG
             inner_content_match = re.search(r'<svg[^>]*>(.*)</svg>', decoded_svg, re.DOTALL)
             if inner_content_match:
                 inner_content = inner_content_match.group(1)
-                replacement = f'<svg x="{ix}" y="{iy}" width="{iw}" height="{ih}" viewBox="0 0 24 24" overflow="visible">{inner_content}</svg>'
+                
+                # We need to scale the inner content to fit the space
+                # Most typical shield.io logos are 24x24 viewBoxes
+                scale_x = float(iw) / 24.0
+                scale_y = float(ih) / 24.0
+                scale = min(scale_x, scale_y)
+                
+                # Center it
+                tx = float(ix) + (float(iw) - 24 * scale) / 2
+                ty = float(iy) + (float(ih) - 24 * scale) / 2
+                
+                replacement = f'<g transform="translate({tx}, {ty}) scale({scale})">{inner_content}</g>'
                 inner = inner[:img_match.start()] + replacement + inner[img_match.end():]
         except Exception as e:
             print(f"Failed to decode base64 for badge {i}: {e}")
@@ -101,9 +112,7 @@ readme_content = f"""<div align="center">
 
 <div align="center">
   <h2 align="center">About Me</h2>
-  <p align="center" style="max-width: 600px; line-height: 1.6;">
-    Product Manager transitioned from Designer. I love building features and making user experiences seamless and good, thinking for the long term. I love to play and experiment with new tools and features. Now on the journey of building AI products, and I love to read books and write articles.
-  </p>
+  <img src="https://readme-typing-svg.demolab.com?font=SF+Pro+Display&weight=500&size=16&pause=1500&color=a1a1aa&center=true&vCenter=true&multiline=true&width=800&height=120&lines=Product+Manager+transitioned+from+Designer.;I+love+building+features+and+making+user+experiences;seamless+and+good,+thinking+for+the+long+term.;I+love+to+play+and+experiment+with+new+tools+and+features.;Now+on+the+journey+of+building+AI+products;and+I+love+to+read+books+and+write+articles.&v={ts}" alt="Typing Intro" width="100%" />
 </div>
 
 <h2 align="center">Product Stack</h2>
