@@ -29,7 +29,9 @@ for url in badges:
     except Exception as e:
         print(f"Failed to fetch {url}: {e}")
 
-master_svg = """<svg width="800" height="150" xmlns="http://www.w3.org/2000/svg">
+import base64
+
+master_svg = """<svg width="800" height="130" xmlns="http://www.w3.org/2000/svg">
   <style>
     .badge { transition: all 0.3s ease; cursor: pointer; }
     .badge:hover { transform: translateY(-5px) scale(1.05); filter: drop-shadow(0 4px 8px rgba(79, 70, 229, 0.4)); }
@@ -62,6 +64,22 @@ for i, svg in enumerate(svgs):
         
     master_svg += f'    <g class="badge b{i}" transform="translate({x}, {y})">\n'
     inner = svg.replace('<svg', '<svg x="0" y="0"').replace('xmlns="http://www.w3.org/2000/svg"', '')
+    
+    # Extract base64 image and convert to nested SVG
+    img_match = re.search(r'<image\s+x="(\d+)"\s+y="(\d+)"\s+width="(\d+)"\s+height="(\d+)"\s+href="data:image/svg\+xml;base64,([^"]+)"\s*/>', inner)
+    if img_match:
+        ix, iy, iw, ih, b64 = img_match.groups()
+        try:
+            decoded_svg = base64.b64decode(b64).decode('utf-8')
+            # Extract just the inner parts of the decoded SVG, and add our own wrapper
+            inner_content_match = re.search(r'<svg[^>]*>(.*)</svg>', decoded_svg, re.DOTALL)
+            if inner_content_match:
+                inner_content = inner_content_match.group(1)
+                replacement = f'<svg x="{ix}" y="{iy}" width="{iw}" height="{ih}" viewBox="0 0 24 24">{inner_content}</svg>'
+                inner = inner[:img_match.start()] + replacement + inner[img_match.end():]
+        except Exception as e:
+            print(f"Failed to decode base64 for badge {i}: {e}")
+            
     master_svg += "      " + inner + "\n"
     master_svg += f'    </g>\n'
     x += width + 15
