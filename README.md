@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=26&pause=2000&color=A1A1AA&center=true&vCenter=true&width=500&height=60&lines=Aniket;Product+Manager;Creative+Engineer" alt="Typing SVG" />
+  <img src="grid-banner.svg" alt="Animated Grid Banner" />
 </div>
 
 <br>
