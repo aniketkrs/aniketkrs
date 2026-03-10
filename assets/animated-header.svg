@@ -2,22 +2,39 @@
   <style>
     @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&amp;display=swap");
     
-    :root {
-      --text-color: #ffffff;
-      --glow-color: #6366f1;
+    @keyframes cyber-pulse-dark {
+      0% { text-shadow: 0 0 10px #6366f1, 0 0 20px #6366f1; filter: brightness(1); }
+      50% { text-shadow: 0 0 20px #6366f1, 0 0 40px #6366f1; filter: brightness(1.2) hue-rotate(15deg); }
+      100% { text-shadow: 0 0 10px #6366f1, 0 0 20px #6366f1; filter: brightness(1); }
+    }
+
+    @keyframes cyber-pulse-light {
+      0% { text-shadow: 0 0 10px #3b82f6, 0 0 20px #3b82f6; filter: brightness(1); }
+      50% { text-shadow: 0 0 20px #3b82f6, 0 0 40px #3b82f6; filter: brightness(1.2) hue-rotate(15deg); }
+      100% { text-shadow: 0 0 10px #3b82f6, 0 0 20px #3b82f6; filter: brightness(1); }
+    }
+
+    @keyframes glitch {
+      0%, 96%, 100% { transform: translate(0); }
+      97% { transform: translate(-3px, 2px); }
+      98% { transform: translate(3px, -2px); }
+      99% { transform: translate(-3px, 0); }
+    }
+
+    .ascii-text {
+      font-family: "Fira Code", monospace;
+      font-weight: 700;
+      font-size: 14px;
+      fill: #ffffff;
+      animation: cyber-pulse-dark 3s infinite, glitch 5s infinite;
+      white-space: pre;
     }
     
     @media (prefers-color-scheme: light) {
-      :root {
-        --text-color: #0f172a;
-        --glow-color: #3b82f6;
+      .ascii-text {
+        fill: #0f172a;
+        animation: cyber-pulse-light 3s infinite, glitch 5s infinite;
       }
-    }
-
-    @keyframes cyber-pulse {
-      0% { text-shadow: 0 0 10px var(--glow-color), 0 0 20px var(--glow-color); filter: brightness(1); }
-      50% { text-shadow: 0 0 20px var(--glow-color), 0 0 40px var(--glow-color); filter: brightness(1.2) hue-rotate(15deg); }
-      100% { text-shadow: 0 0 10px var(--glow-color), 0 0 20px var(--glow-color); filter: brightness(1); }
     }
 
     @keyframes glitch {
