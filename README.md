@@ -1,88 +1,87 @@
 <div align="center">
-  <!-- Interactive, Modern SVG Header Banner for Product Manager -->
   <a href="https://github.com/aniketkrs">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=280&section=header&text=Turning%20Chaos%20into%20Products&fontSize=52&animation=fadeIn&fontAlignY=38&desc=Product%20Manager%20%7C%20Builder%20%7C%20Strategist&descAlignY=55&descAlign=62&fontColor=ffffff&descColor=ffffff" alt="Product Management Header" />
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=300&section=header&text=Aniket%20K.&fontSize=80&animation=fadeIn&fontAlignY=38&desc=Architecting%20the%20future%20of%20Digital%20Products.&descAlignY=58&descAlign=50&fontColor=ffffff&descColor=a1a1aa&stroke=555555" alt="Aniket K. Header" />
   </a>
 </div>
 
+<br />
+
 <div align="center">
-  <!-- Sleek 3D/Vectors in a GIF or looping SVG -->
-  <img src="https://assets-v2.lottiefiles.com/a/5cf5d222-1175-11ee-8bb4-03a085ce092e/IomK0M3j0f.gif" alt="3D Product Manager Animation" width="400" />
+  <!-- Minimalist animated text -->
+  <a href="https://github.com/aniketkrs">
+    <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=500&size=26&pause=1000&color=FFFFFF&center=true&vCenter=true&width=800&lines=❖+Bridging+Design,+Engineering,+and+Business+❖;❖+Translating+Chaos+into+Scalable+SaaS+❖;❖+Obsessed+with+Growth+Loop+Optimization+❖;❖+Building+Products+That+Matter+❖" alt="Typing Banner" />
+  </a>
+</div>
+
+<br />
+
+### � The Philosophy
+
+> *A great product manager isn't just the CEO of the product; they are the chief empathizer, the primary simplifier, and the unblocker of talent. I build the intersection where user delight meets business viability.*
+
+---
+
+<table width="100%">
+  <tr>
+    <td width="55%" valign="top">
+      <h3>🚀 Core Competencies</h3>
+      <p>My stack isn't just code; it's frameworks, systems, and execution.</p>
+
+      **01. Product Strategy & Discovery**<br>
+      `Jobs-to-be-Done` `Opportunity Solution Trees` `Kano Model` `Impact Mapping`
+      <br><br>
+      
+      **02. Growth & Analytics**<br>
+      `A/B Testing` `Funnel Optimization` `Cohort Analysis` `LTV/CAC Modeling`
+      <br><br>
+
+      **03. Technical Execution**<br>
+      `System Architecture Design` `API Workflows` `Agile/Scrum` `CI/CD Mindset`
+    </td>
+    <td width="45%" valign="top">
+      <h3>🛠️ The Toolbelt</h3>
+      
+      <i>To ship fast, you need the right instruments.</i>
+      <br><br>
+      
+      <img src="https://img.shields.io/badge/Figma-1e1e1e?style=for-the-badge&logo=figma&logoColor=white" />
+      <img src="https://img.shields.io/badge/Linear-1e1e1e?style=for-the-badge&logo=linear&logoColor=white" />
+      <img src="https://img.shields.io/badge/Jira-1e1e1e?style=for-the-badge&logo=jira&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Amplitude-1e1e1e?style=for-the-badge&logo=amplitude&logoColor=white" />
+      <img src="https://img.shields.io/badge/Mixpanel-1e1e1e?style=for-the-badge&logo=mixpanel&logoColor=white" />
+      <img src="https://img.shields.io/badge/PostgreSQL-1e1e1e?style=for-the-badge&logo=postgresql&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Python-1e1e1e?style=for-the-badge&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/OpenAI-1e1e1e?style=for-the-badge&logo=openai&logoColor=white" />
+      <img src="https://img.shields.io/badge/Notion-1e1e1e?style=for-the-badge&logo=notion&logoColor=white" />
+    </td>
+  </tr>
+</table>
+
+### 📈 Execution Metrics
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=aniketkrs&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FFFFFF&icon_color=58A6FF&text_color=A1A1AA" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aniketkrs&theme=radical&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakNum=FFFFFF" width="48%" />
+</div>
+
+<br/>
+
+### 📬 Let's Collaborate
+
+<div align="center">
+  <a href="https://linkedin.com/in/[your-linkedin-id]">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://twitter.com/[your-twitter-handle]">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
+  </a>
+  <a href="mailto:[your-email]">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
 </div>
 
 <br/>
 
 <div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=24&pause=1000&color=36D5F2&center=true&vCenter=true&width=700&lines=🚀+Vision-Driven+Product+Manager;📈+Data-Informed+Growth+Strategist;🤖+AI+%26+SaaS+Enthusiast;🧩+Solving+Complex+User+Problems" alt="Interactive Typing SVG" />
-  </a>
-</div>
-
-## ✨ About Me
-
-Hello! 👋 I'm a passionate **Product Manager** who loves bridging the gap between engineering, design, and business goals. I build solutions that don't just solve problems but redefine user experiences. My focus is on sleek execution, data-informed strategy, and shipping products that matter.
-
-* 🔭 I’m currently focused on **AI-Driven SaaS Products** and scalable platforms.
-* 🌱 I’m constantly learning about **Advanced Product Analytics, Agile Scaling, & Growth Physics**.
-* 👯 I’m looking to partner with **engineers and designers** on innovative open-source tech.
-* 💬 Ask me about **Product Roadmaps, User Psychology, Go-To-Market Strategies, & AI Integration**.
-* ⚡ Fun fact: **I can write code, but I prefer writing PRDs that engineers actually love reading.**
-* 📫 How to reach me: **[LinkedIn Placeholder] | [Twitter Placeholder] | [Email Placeholder]**
-
-<br/>
-
-<div align="center">
-
-## 🛠️ My Digital WorkSpace
-
-### 🧠 Product Strategy & Workflow
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=Jira&logoColor=white" />
-  <img src="https://img.shields.io/badge/Confluence-172B4D?style=for-the-badge&logo=Confluence&logoColor=white" />
-  <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linear-5E6AD2?style=for-the-badge&logo=Linear&logoColor=white" />
-</p>
-
-### 🎨 Design & Prototyping
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
-  <img src="https://img.shields.io/badge/Miro-050038?style=for-the-badge&logo=Miro&logoColor=white" />
-  <img src="https://img.shields.io/badge/Framer-0055FF?style=for-the-badge&logo=framer&logoColor=white" />
-</p>
-
-### 📊 Data, Analytics & Code
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Google_Analytics-E37400?style=for-the-badge&logo=google-analytics&logoColor=white" />
-  <img src="https://img.shields.io/badge/Mixpanel-7856FF?style=for-the-badge&logo=Mixpanel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Amplitude-205AEE?style=for-the-badge&logo=Amplitude&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white" />
-  <br/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
-</p>
-
-</div>
-
----
-
-## 📈 Engineering Contributions & Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=aniketkrs&show_icons=true&theme=omni&hide_border=true&include_all_commits=true&count_private=true" alt="Dynamic GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aniketkrs&theme=omni&hide_border=true" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aniketkrs&layout=compact&theme=omni&hide_border=true" alt="Top Languages Chart" />
-</p>
-
----
-
-<div align="center">
-  <i><q>Good products solve user problems. Great products elevate user behavior.</q></i>
-  <br>
-  <b>Thanks for visiting my profile! Let's build something remarkable.</b>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=100&section=footer" width="100%"/>
 </div>
