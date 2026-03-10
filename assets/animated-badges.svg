@@ -1,69 +1,51 @@
-<svg width="800" height="80" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="150" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .badge {
-      transition: all 0.3s ease;
-      cursor: pointer;
-    }
-    .badge:hover {
-      transform: translateY(-5px) scale(1.1);
-      filter: drop-shadow(0 4px 8px rgba(79, 70, 229, 0.4));
-    }
+    .badge { transition: all 0.3s ease; cursor: pointer; }
+    .badge:hover { transform: translateY(-5px) scale(1.05); filter: drop-shadow(0 4px 8px rgba(79, 70, 229, 0.4)); }
     @keyframes float1 { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
     @keyframes float2 { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
     @keyframes float3 { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
-    
-    .b1 { animation: float1 3s ease-in-out infinite 0.1s; }
-    .b2 { animation: float2 3.2s ease-in-out infinite 0.2s; }
-    .b3 { animation: float3 2.8s ease-in-out infinite 0.3s; }
-    .b4 { animation: float1 3.1s ease-in-out infinite 0.4s; }
-    .b5 { animation: float2 2.9s ease-in-out infinite 0.5s; }
-    .b6 { animation: float3 3s ease-in-out infinite 0.6s; }
-    .b7 { animation: float1 3.3s ease-in-out infinite 0.7s; }
-    .b8 { animation: float2 2.7s ease-in-out infinite 0.8s; }
-    .b9 { animation: float3 3.1s ease-in-out infinite 0.9s; }
-    .b10 { animation: float1 2.9s ease-in-out infinite 1.0s; }
+    .b0 { animation: float1 3s ease-in-out infinite 0.1s; }
+    .b1 { animation: float2 3.2s ease-in-out infinite 0.2s; }
+    .b2 { animation: float3 2.8s ease-in-out infinite 0.3s; }
+    .b3 { animation: float1 3.1s ease-in-out infinite 0.4s; }
+    .b4 { animation: float2 2.9s ease-in-out infinite 0.5s; }
+    .b5 { animation: float3 3s ease-in-out infinite 0.6s; }
+    .b6 { animation: float1 3.3s ease-in-out infinite 0.7s; }
+    .b7 { animation: float2 2.7s ease-in-out infinite 0.8s; }
+    .b8 { animation: float3 3.1s ease-in-out infinite 0.9s; }
+    .b9 { animation: float1 2.9s ease-in-out infinite 1.0s; }
   </style>
-
   <g transform="translate(10, 20)">
-    <!-- Figma -->
-    <g class="badge b1" transform="translate(0, 0)">
-      <image href="https://img.shields.io/badge/Figma-000000?style=for-the-badge&amp;logo=figma&amp;logoColor=4f46e5" width="80" height="28" />
+    <g class="badge b0" transform="translate(0, 0)">
+      <svg x="0" y="0"  width="87.25" height="28" role="img" aria-label="FIGMA"><title>FIGMA</title><g shape-rendering="crispEdges"><rect width="87.25" height="28" fill="#000000"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100"><image x="9" y="7" width="14" height="14" href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjNGY0NmU1IiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+RmlnbWE8L3RpdGxlPjxwYXRoIGQ9Ik0xNS44NTIgOC45ODFoLTQuNTg4VjBoNC41ODhjMi40NzYgMCA0LjQ5IDIuMDE0IDQuNDkgNC40OXMtMi4wMTQgNC40OTEtNC40OSA0LjQ5MXpNMTIuNzM1IDcuNTFoMy4xMTdjMS42NjUgMCAzLjAxOS0xLjM1NSAzLjAxOS0zLjAxOXMtMS4zNTUtMy4wMTktMy4wMTktMy4wMTloLTMuMTE3VjcuNTF6bTAgMS40NzFIOC4xNDhjLTIuNDc2IDAtNC40OS0yLjAxNC00LjQ5LTQuNDlTNS42NzIgMCA4LjE0OCAwaDQuNTg4djguOTgxem0tNC41ODctNy41MWMtMS42NjUgMC0zLjAxOSAxLjM1NS0zLjAxOSAzLjAxOXMxLjM1NCAzLjAyIDMuMDE5IDMuMDJoMy4xMTdWMS40NzFIOC4xNDh6bTQuNTg3IDE1LjAxOUg4LjE0OGMtMi40NzYgMC00LjQ5LTIuMDE0LTQuNDktNC40OXMyLjAxNC00LjQ5IDQuNDktNC40OWg0LjU4OHY4Ljk4ek04LjE0OCA4Ljk4MWMtMS42NjUgMC0zLjAxOSAxLjM1NS0zLjAxOSAzLjAxOXMxLjM1NSAzLjAxOSAzLjAxOSAzLjAxOWgzLjExN1Y4Ljk4MUg4LjE0OHpNOC4xNzIgMjRjLTIuNDg5IDAtNC41MTUtMi4wMTQtNC41MTUtNC40OXMyLjAxNC00LjQ5IDQuNDktNC40OWg0LjU4OHY0LjQ0MWMwIDIuNTAzLTIuMDQ3IDQuNTM5LTQuNTYzIDQuNTM5em0tLjAyNC03LjUxYTMuMDIzIDMuMDIzIDAgMCAwLTMuMDE5IDMuMDE5YzAgMS42NjUgMS4zNjUgMy4wMTkgMy4wNDQgMy4wMTkgMS43MDUgMCAzLjA5My0xLjM3NiAzLjA5My0zLjA2OHYtMi45N0g4LjE0OHptNy43MDQgMGgtLjA5OGMtMi40NzYgMC00LjQ5LTIuMDE0LTQuNDktNC40OXMyLjAxNC00LjQ5IDQuNDktNC40OWguMDk4YzIuNDc2IDAgNC40OSAyLjAxNCA0LjQ5IDQuNDlzLTIuMDE0IDQuNDktNC40OSA0LjQ5em0tLjA5Ny03LjUwOWMtMS42NjUgMC0zLjAxOSAxLjM1NS0zLjAxOSAzLjAxOXMxLjM1NSAzLjAxOSAzLjAxOSAzLjAxOWguMDk4YzEuNjY1IDAgMy4wMTktMS4zNTUgMy4wMTktMy4wMTlzLTEuMzU1LTMuMDE5LTMuMDE5LTMuMDE5aC0uMDk4eiIvPjwvc3ZnPg=="/><text transform="scale(.1)" x="536.25" y="175" textLength="432.5" fill="#fff" font-weight="bold">FIGMA</text></g></svg>
     </g>
-    <!-- Jira -->
-    <g class="badge b2" transform="translate(90, 0)">
-      <image href="https://img.shields.io/badge/Jira-000000?style=for-the-badge&amp;logo=jira&amp;logoColor=4f46e5" width="70" height="28" />
+    <g class="badge b1" transform="translate(102.25, 0)">
+      <svg x="0" y="0"  width="75" height="28" role="img" aria-label="JIRA"><title>JIRA</title><g shape-rendering="crispEdges"><rect width="75" height="28" fill="#000000"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100"><image x="9" y="7" width="14" height="14" href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjNGY0NmU1IiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+SmlyYTwvdGl0bGU+PHBhdGggZD0iTTExLjU3MSAxMS41MTNIMGE1LjIxOCA1LjIxOCAwIDAgMCA1LjIzMiA1LjIxNWgyLjEzdjIuMDU3QTUuMjE1IDUuMjE1IDAgMCAwIDEyLjU3NSAyNFYxMi41MThhMS4wMDUgMS4wMDUgMCAwIDAtMS4wMDUtMS4wMDV6bTUuNzIzLTUuNzU2SDUuNzM2YTUuMjE1IDUuMjE1IDAgMCAwIDUuMjE1IDUuMjE0aDIuMTI5djIuMDU4YTUuMjE4IDUuMjE4IDAgMCAwIDUuMjE1IDUuMjE0VjYuNzU4YTEuMDAxIDEuMDAxIDAgMCAwLTEuMDAxLTEuMDAxek0yMy4wMTMgMEgxMS40NTVhNS4yMTUgNS4yMTUgMCAwIDAgNS4yMTUgNS4yMTVoMi4xMjl2Mi4wNTdBNS4yMTUgNS4yMTUgMCAwIDAgMjQgMTIuNDgzVjEuMDA1QTEuMDAxIDEuMDAxIDAgMCAwIDIzLjAxMyAwWiIvPjwvc3ZnPg=="/><text transform="scale(.1)" x="475" y="175" textLength="310" fill="#fff" font-weight="bold">JIRA</text></g></svg>
     </g>
-    <!-- Notion -->
-    <g class="badge b3" transform="translate(170, 0)">
-      <image href="https://img.shields.io/badge/Notion-000000?style=for-the-badge&amp;logo=notion&amp;logoColor=4f46e5" width="85" height="28" />
+    <g class="badge b2" transform="translate(192.25, 0)">
+      <svg x="0" y="0"  width="97.5" height="28" role="img" aria-label="NOTION"><title>NOTION</title><g shape-rendering="crispEdges"><rect width="97.5" height="28" fill="#000000"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100"><image x="9" y="7" width="14" height="14" href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjNGY0NmU1IiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+Tm90aW9uPC90aXRsZT48cGF0aCBkPSJNNC40NTkgNC4yMDhjLjc0Ni42MDYgMS4wMjYuNTYgMi40MjguNDY2bDEzLjIxNS0uNzkzYy4yOCAwIC4wNDctLjI4LS4wNDYtLjMyNkwxNy44NiAxLjk2OGMtLjQyLS4zMjYtLjk4MS0uNy0yLjA1NS0uNjA3TDMuMDEgMi4yOTVjLS40NjYuMDQ2LS41Ni4yOC0uMzc0LjQ2NnptLjc5MyAzLjA4djEzLjkwNGMwIC43NDcuMzczIDEuMDI3IDEuMjE0Ljk4bDE0LjUyMy0uODRjLjg0MS0uMDQ2LjkzNS0uNTYuOTM1LTEuMTY3VjYuMzU0YzAtLjYwNi0uMjMzLS45MzMtLjc0OC0uODg3bC0xNS4xNzcuODg3Yy0uNTYuMDQ3LS43NDcuMzI3LS43NDcuOTMzem0xNC4zMzcuNzQ1Yy4wOTMuNDIgMCAuODQtLjQyLjg4OGwtLjcuMTR2MTAuMjY0Yy0uNjA4LjMyNy0xLjE2OC41MTQtMS42MzUuNTE0LS43NDggMC0uOTM1LS4yMzQtMS40OTUtLjkzM2wtNC41NzctNy4xODZ2Ni45NTJMMTIuMjEgMTlzMCAuODQtMS4xNjguODRsLTMuMjIyLjE4NmMtLjA5My0uMTg2IDAtLjY1My4zMjctLjc0NmwuODQtLjIzM1Y5Ljg1NEw3LjgyMiA5Ljc2Yy0uMDk0LS40Mi4xNC0xLjAyNi43OTMtMS4wNzNsMy40NTYtLjIzMyA0Ljc2NCA3LjI3OXYtNi40NGwtMS4yMTUtLjEzOWMtLjA5My0uNTE0LjI4LS44ODcuNzQ3LS45MzN6TTEuOTM2IDEuMDM1bDEzLjMxLS45OGMxLjYzNC0uMTQgMi4wNTUtLjA0NyAzLjA4Mi43bDQuMjQ5IDIuOTg2Yy43LjUxMy45MzQuNjUzLjkzNCAxLjIxM3YxNi4zNzhjMCAxLjAyNi0uMzczIDEuNjM0LTEuNjggMS43MjZsLTE1LjQ1OC45MzRjLS45OC4wNDctMS40NDgtLjA5My0xLjk2Mi0uNzQ3bC0zLjEyOS00LjA2Yy0uNTYtLjc0Ny0uNzkzLTEuMzA2LS43OTMtMS45NlYyLjY2N2MwLS44MzkuMzc0LTEuNTQgMS40NDctMS42MzJ6Ii8+PC9zdmc+"/><text transform="scale(.1)" x="587.5" y="175" textLength="535" fill="#fff" font-weight="bold">NOTION</text></g></svg>
     </g>
-    <!-- Linear -->
-    <g class="badge b4" transform="translate(265, 0)">
-      <image href="https://img.shields.io/badge/Linear-000000?style=for-the-badge&amp;logo=linear&amp;logoColor=4f46e5" width="85" height="28" />
+    <g class="badge b3" transform="translate(304.75, 0)">
+      <svg x="0" y="0"  width="93.5" height="28" role="img" aria-label="LINEAR"><title>LINEAR</title><g shape-rendering="crispEdges"><rect width="93.5" height="28" fill="#000000"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100"><image x="9" y="7" width="14" height="14" href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjNGY0NmU1IiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TGluZWFyPC90aXRsZT48cGF0aCBkPSJNMi44ODYgNC4xOEExMS45ODIgMTEuOTgyIDAgMCAxIDExLjk5IDBDMTguNjI0IDAgMjQgNS4zNzYgMjQgMTIuMDA5YzAgMy42NC0xLjYyIDYuOTAzLTQuMTggOS4xMDVMMi44ODcgNC4xOFpNMS44MTcgNS42MjZsMTYuNTU2IDE2LjU1NmMtLjUyNC4zMy0xLjA3NS42Mi0xLjY1Ljg2NkwuOTUxIDcuMjc3Yy4yNDctLjU3NS41MzctMS4xMjYuODY2LTEuNjVaTS4zMjIgOS4xNjNsMTQuNTE1IDE0LjUxNWMtLjcxLjE3Mi0xLjQ0My4yODItMi4xOTUuMzIyTDAgMTEuMzU4YTEyIDEyIDAgMCAxIC4zMjItMi4xOTVabS0uMTcgNC44NjIgOS44MjMgOS44MjRhMTIuMDIgMTIuMDIgMCAwIDEtOS44MjQtOS44MjRaIi8+PC9zdmc+"/><text transform="scale(.1)" x="567.5" y="175" textLength="495" fill="#fff" font-weight="bold">LINEAR</text></g></svg>
     </g>
-    <!-- Framer -->
-    <g class="badge b5" transform="translate(360, 0)">
-      <image href="https://img.shields.io/badge/Framer-000000?style=for-the-badge&amp;logo=framer&amp;logoColor=4f46e5" width="90" height="28" />
+    <g class="badge b4" transform="translate(413.25, 0)">
+      <svg x="0" y="0"  width="97.5" height="28" role="img" aria-label="FRAMER"><title>FRAMER</title><g shape-rendering="crispEdges"><rect width="97.5" height="28" fill="#000000"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100"><image x="9" y="7" width="14" height="14" href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjNGY0NmU1IiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+RnJhbWVyPC90aXRsZT48cGF0aCBkPSJNNCAwaDE2djhoLTh6TTQgOGg4bDggOEg0ek00IDE2aDh2OHoiLz48L3N2Zz4="/><text transform="scale(.1)" x="587.5" y="175" textLength="535" fill="#fff" font-weight="bold">FRAMER</text></g></svg>
     </g>
-    <!-- Mixpanel -->
-    <g class="badge b6" transform="translate(460, 0)">
-      <image href="https://img.shields.io/badge/Mixpanel-000000?style=for-the-badge&amp;logo=mixpanel&amp;logoColor=4f46e5" width="105" height="28" />
+    <g class="badge b5" transform="translate(525.75, 0)">
+      <svg x="0" y="0"  width="113" height="28" role="img" aria-label="MIXPANEL"><title>MIXPANEL</title><g shape-rendering="crispEdges"><rect width="113" height="28" fill="#000000"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100"><image x="9" y="7" width="14" height="14" href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjNGY0NmU1IiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TWl4cGFuZWw8L3RpdGxlPjxwYXRoIGQ9Ik02Ljk2NyA5Ljk5NmgzLjA1M2MtLjc2My0uNDc3LTEuMDQ4LTEuMTQ1LTEuNDMxLTIuMzg0TDcuNDQzIDMuMzY2QzYuOTE5IDEuNDU4IDYuNDkuNTUxIDQuMzkuNTUxSC4wMDR2MS4xNDVoLjYyMWMxLjI4NiAwIDEuNDMxLjQ3NyAxLjgxNCAxLjkwOEwzLjQ0IDcuMzI2Yy41MjQgMS44MTQgMS4zMzcgMi42NyAzLjUzIDIuNjdoLS4wMDNabTcuMDYgMGgzLjA1M2MyLjE5NCAwIDIuOTU2LS44NiAzLjQ4NC0yLjY3bDEuMDAxLTMuNzIyYy4zODItMS40MzEuNTctMS45MDggMS44MTQtMS45MDhIMjRWLjU1MWgtNC4zNGMtMi4xNDYgMC0yLjU3Ni44Ni0zLjA1MyAyLjgxNWwtMS4xNDUgNC4yNDZjLS4zODQgMS4yODYtLjY3MyAxLjkwNy0xLjQzNSAyLjM4NFptLTQuMDA3IDQuMDA4aDQuMDA3VjkuOTk2SDEwLjAydjQuMDA4Wk0wIDIzLjQ0OWg0LjM5YzIuMSAwIDIuNTI5LS45MDcgMy4wNTMtMi44MTVsMS4xNDYtNC4yNDZjLjM4My0xLjIzOS42NjgtMS45MDcgMS40MzEtMi4zODRINi45NjdjLTIuMTk0IDAtMy4wMDcuODYtMy41MzEgMi42N2wtMS4wMDEgMy43MjJjLS4zODMgMS40MzEtLjUyNCAxLjkwNy0xLjgxNCAxLjkwN0gwdjEuMTQ2Wm0xOS42NSAwaDQuMzQzdi0xLjE0NmgtLjYyMmMtMS4yMzkgMC0xLjQzMS0uNDc2LTEuODE0LTEuOTA3bC0xLjAwMS0zLjcyMmMtLjUyNC0xLjgxNC0xLjI4Ni0yLjY3LTMuNDgzLTIuNjdoLTMuMDQ2Yy43NjIuNDc3IDEuMDQxIDEuMDk4IDEuNDI0IDIuMzg0bDEuMTQ1IDQuMjQ2Yy40NzcgMS45NTUuOTA3IDIuODE1IDMuMDU0IDIuODE1WiIvPjwvc3ZnPg=="/><text transform="scale(.1)" x="665" y="175" textLength="690" fill="#fff" font-weight="bold">MIXPANEL</text></g></svg>
     </g>
-    <!-- Hotjar -->
-    <g class="badge b7" transform="translate(575, 0)">
-      <image href="https://img.shields.io/badge/Hotjar-000000?style=for-the-badge&amp;logo=hotjar&amp;logoColor=4f46e5" width="85" height="28" />
+    <g class="badge b6" transform="translate(653.75, 0)">
+      <svg x="0" y="0"  width="95.5" height="28" role="img" aria-label="HOTJAR"><title>HOTJAR</title><g shape-rendering="crispEdges"><rect width="95.5" height="28" fill="#000000"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100"><image x="9" y="7" width="14" height="14" href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjNGY0NmU1IiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+SG90amFyPC90aXRsZT48cGF0aCBkPSJNMTAuMTE5IDkuODE0QzEyLjg5OSA4LjI3IDE2LjcwNCA2LjE1NSAxNi43MDQgMGgtNC42MDljMCAzLjQ0NC0xLjY3NiA0LjM3NS00LjIxNCA1Ljc4NkM1LjEgNy4zMyAxLjI5NSA5LjQ0NCAxLjI5NSAxNS42aDQuNjFjMC0zLjQ0NCAxLjY3Ni00LjM3NiA0LjIxNC01Ljc4NnpNMTguMDk2IDguNGMwIDMuNDQ0LTEuNjc3IDQuMzc2LTQuMjE1IDUuNzg1LTIuNzc4IDEuNTQ0LTYuNTg1IDMuNjYtNi41ODUgOS44MTVoNC42MDljMC0zLjQ0NCAxLjY3Ni00LjM3NiA0LjIxNC01Ljc4NiAyLjc4LTEuNTQ0IDYuNTg2LTMuNjU4IDYuNTg2LTkuODE0aC00LjYwOXoiLz48L3N2Zz4="/><text transform="scale(.1)" x="577.5" y="175" textLength="515" fill="#fff" font-weight="bold">HOTJAR</text></g></svg>
     </g>
-    <!-- GA4 -->
-    <g class="badge b8" transform="translate(670, 0)">
-      <image href="https://img.shields.io/badge/GA4-000000?style=for-the-badge&amp;logo=googleanalytics&amp;logoColor=4f46e5" width="65" height="28" />
+    <g class="badge b7" transform="translate(0, 50)">
+      <svg x="0" y="0"  width="69.75" height="28" role="img" aria-label="GA4"><title>GA4</title><g shape-rendering="crispEdges"><rect width="69.75" height="28" fill="#000000"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100"><image x="9" y="7" width="14" height="14" href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjNGY0NmU1IiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+R29vZ2xlIEFuYWx5dGljczwvdGl0bGU+PHBhdGggZD0iTTIyLjg0IDIuOTk4MnYxNy45OTg3Yy4wMDg2IDEuNjQ3My0xLjMxOTcgMi45ODk3LTIuOTY3IDIuOTk4NGEyLjk4MDggMi45ODA4IDAgMDEtLjM2NzctLjAyMDhjLTEuNTI4LS4yMjYtMi42NDc3LTEuNTU1OC0yLjYxMDUtMy4xVjMuMTIwNGMtLjAzNjktMS41NDU4IDEuMDg1Ni0yLjg3NjIgMi42MTU3LTMuMSAxLjYzNjEtLjE5MTUgMy4xMTc4Ljk3OTYgMy4zMDkzIDIuNjE1OC4wMTQuMTIwMS4wMjA4LjI0MS4wMjAyLjM2MTl6TTQuMTMyNiAxOC4wNTQ4Yy0xLjY0MTcgMC0yLjk3MjYgMS4zMzEtMi45NzI2IDIuOTcyNkMxLjE2IDIyLjY2OTEgMi40OTA5IDI0IDQuMTMyNiAyNHMyLjk3MjYtMS4zMzA5IDIuOTcyNi0yLjk3MjYtMS4zMzEtMi45NzI2LTIuOTcyNi0yLjk3MjZ6bTcuODcyOC05LjAwOThjLS4wMTcxIDAtLjAzNDIgMC0uMDUxMy4wMDAzLTEuNjQ5NS4wOTA0LTIuOTI5MyAxLjQ3NC0yLjg5MSAzLjEyNTZ2Ny45ODQ2YzAgMi4xNjcuOTUzNSAzLjQ4MjUgMi4zNTA1IDMuNzYzIDEuNjExOC4zMjY2IDMuMTgzMi0uNzE1MiAzLjUwOTgtMi4zMjcuMDQtLjE5NzQuMDYtLjM5ODMuMDU5My0uNTk5OHYtOC45NTg1Yy4wMDMtMS42NDc0LTEuMzMtMi45ODUyLTIuOTc3My0yLjk4ODJ6Ii8+PC9zdmc+"/><text transform="scale(.1)" x="448.75" y="175" textLength="257.5" fill="#fff" font-weight="bold">GA4</text></g></svg>
     </g>
-    <!-- Claude -->
-    <g class="badge b9" transform="translate(0, 40)">
-      <image href="https://img.shields.io/badge/Claude-000000?style=for-the-badge&amp;logo=anthropic&amp;logoColor=4f46e5" width="90" height="28" />
+    <g class="badge b8" transform="translate(84.75, 50)">
+      <svg x="0" y="0"  width="95.5" height="28" role="img" aria-label="CLAUDE"><title>CLAUDE</title><g shape-rendering="crispEdges"><rect width="95.5" height="28" fill="#000000"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100"><image x="9" y="7" width="14" height="14" href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjNGY0NmU1IiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+QW50aHJvcGljPC90aXRsZT48cGF0aCBkPSJNMTcuMzA0MSAzLjU0MWgtMy42NzE4bDYuNjk2IDE2LjkxOEgyNFptLTEwLjYwODIgMEwwIDIwLjQ1OWgzLjc0NDJsMS4zNjkzLTMuNTUyN2g3LjAwNTJsMS4zNjkzIDMuNTUyOGgzLjc0NDJMMTAuNTM2MyAzLjU0MDlabS0uMzcxMiAxMC4yMjMyIDIuMjkxNC01Ljk0NTYgMi4yOTE0IDUuOTQ1NloiLz48L3N2Zz4="/><text transform="scale(.1)" x="577.5" y="175" textLength="515" fill="#fff" font-weight="bold">CLAUDE</text></g></svg>
     </g>
-    <!-- Antigravity -->
-    <g class="badge b10" transform="translate(100, 40)">
-      <image href="https://img.shields.io/badge/Antigravity-000000?style=for-the-badge&amp;logo=googlebard&amp;logoColor=4f46e5" width="130" height="28" />
+    <g class="badge b9" transform="translate(195.25, 50)">
+      <svg x="0" y="0"  width="137.5" height="28" role="img" aria-label="ANTIGRAVITY AI"><title>ANTIGRAVITY AI</title><g shape-rendering="crispEdges"><rect width="137.5" height="28" fill="#000000"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100"><text transform="scale(.1)" x="687.5" y="175" textLength="1135" fill="#fff" font-weight="bold">ANTIGRAVITY AI</text></g></svg>
     </g>
   </g>
 </svg>
