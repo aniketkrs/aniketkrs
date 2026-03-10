@@ -10,13 +10,6 @@
       <h2>About Me</h2>
       <img src="https://readme-typing-svg.demolab.com?font=SF+Pro+Display&weight=500&size=16&pause=1500&color=a1a1aa&center=false&vCenter=false&width=600&height=30&lines=Product+Manager+turned+from+Designer.;Obsessed+with+seamless,+long-term+user+experiences.;Currently+building+next-gen+products+using+AI.;Always+experimenting+with+new+tools+and+features.;Avid+reader+and+tech+article+writer." alt="Typing Intro" />
       <br><br>
-      <h2>Connect with me</h2>
-      <a href="https://github.com/aniketkrs"><img src="https://img.shields.io/badge/GITHUB-000000?style=flat&logo=github&logoColor=4f46e5" alt="GitHub" /></a>
-      <a href="https://linkedin.com/in/#"><img src="https://img.shields.io/badge/LINKEDIN-000000?style=flat&logo=linkedin&logoColor=4f46e5" alt="LinkedIn" /></a>
-      <a href="https://twitter.com/#"><img src="https://img.shields.io/badge/TWITTER-000000?style=flat&logo=x&logoColor=4f46e5" alt="Twitter" /></a>
-      <a href="mailto:#"><img src="https://img.shields.io/badge/EMAIL-000000?style=flat&logo=gmail&logoColor=4f46e5" alt="Email" /></a>
-      <a href="https://github.com/aniketkrs/aniketkrs/tree/main/portfolio"><img src="https://img.shields.io/badge/PORTFOLIO-000000?style=flat&logo=vercel&logoColor=4f46e5" alt="Portfolio" /></a>
-      <br><br>
       <h2>Product Stack:</h2>
       <img src="https://img.shields.io/badge/Figma-000000?style=flat&logo=figma&logoColor=4f46e5" alt="Figma" />
       <img src="https://img.shields.io/badge/Jira-000000?style=flat&logo=jira&logoColor=4f46e5" alt="Jira" />
