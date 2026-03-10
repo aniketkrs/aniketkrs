@@ -2,15 +2,12 @@
   <img src="assets/animated-header.svg" alt="Aniket Kumar" width="100%" />
 </div>
 
-<br>
-
-<table width="100%" style="border: none; background: transparent;">
-  <tr style="border: none;">
-    <td width="60%" style="border: none;" valign="top">
+<table width="100%" style="border: none; background: transparent; border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0;">
+  <tr style="border: none; margin: 0; padding: 0;">
+    <td width="60%" style="border: none; margin: 0; padding: 0;" valign="top">
       <h2>About Me</h2>
       <img src="https://readme-typing-svg.demolab.com?font=SF+Pro+Display&weight=500&size=16&pause=1500&color=a1a1aa&center=false&vCenter=false&width=600&height=30&lines=Product+Manager+turned+from+Designer.;Obsessed+with+seamless,+long-term+user+experiences.;Currently+building+next-gen+products+using+AI.;Always+experimenting+with+new+tools+and+features.;Avid+reader+and+tech+article+writer." alt="Typing Intro" />
-      <br><br>
-      <h2>Product Stack:</h2>
+      <h2 style="margin-top: 5px;">Product Stack:</h2>
       <img src="https://img.shields.io/badge/Figma-000000?style=flat&logo=figma&logoColor=4f46e5" alt="Figma" />
       <img src="https://img.shields.io/badge/Jira-000000?style=flat&logo=jira&logoColor=4f46e5" alt="Jira" />
       <img src="https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=4f46e5" alt="Notion" />
@@ -28,11 +25,9 @@
   </tr>
 </table>
 
-<br><br>
-
-<table width="100%" style="border: none; background: transparent;">
-  <tr style="border: none;">
-    <td width="55%" style="border: none;" valign="top">
+<table width="100%" style="border: none; background: transparent; border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0;">
+  <tr style="border: none; margin: 0; padding: 0;">
+    <td width="55%" style="border: none; margin: 0; padding: 0;" valign="top">
       <img src="https://github-readme-activity-graph.vercel.app/graph?username=aniketkrs&bg_color=0a0a0a&color=4f46e5&line=4f46e5&point=ffffff&area=true&hide_border=false&title_color=4f46e5&radius=24&custom_title=Aniket%20Kumar's%20Contribution%20Graph" alt="Activity Graph" width="100%" />
     </td>
     <td width="45%" style="border: none;" valign="top">
@@ -49,8 +44,6 @@
   </tr>
 </table>
 
-<br>
-
-<div align="center">
+<div align="center" style="margin-top: -10px;">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4F46E5&height=100&section=footer" width="100%"/>
 </div>
