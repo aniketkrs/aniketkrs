@@ -86,37 +86,30 @@ with open('/Users/abcom/.gemini/antigravity/scratch/aniketkrs/assets/animated-ba
     f.write(master_svg)
 
 def create_header(text, filename):
-    svg = f"""<svg width="800" height="80" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .header-text {{
-      font-family: 'Arial Black', Gadget, sans-serif;
-      font-size: 42px;
-      font-weight: 900;
-      fill: url(#gradDark);
-      letter-spacing: 2px;
-    }}
-    @media (prefers-color-scheme: light) {{
-      .header-text {{
-        fill: url(#gradLight);
-      }}
-    }}
-  </style>
+    # Dark version — Indigo to Violet gradient
+    svg_dark = f"""<svg width="800" height="80" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Dark Mode Gradient (Sleek Indigo to Violet) -->
-    <linearGradient id="gradDark" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#a855f7;stop-opacity:1" />
     </linearGradient>
-    <!-- Light Mode Gradient (Deep Navy to Ocean Blue) -->
-    <linearGradient id="gradLight" x1="0%" y1="0%" x2="100%" y2="0%">
+  </defs>
+  <text x="400" y="55" font-family="'Arial Black', Gadget, sans-serif" font-size="42" font-weight="900" fill="url(#grad)" text-anchor="middle" letter-spacing="2">{text}</text>
+</svg>"""
+    # Light version — Deep Navy to Ocean Blue gradient
+    svg_light = f"""<svg width="800" height="80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style="stop-color:#1e40af;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#0284c7;stop-opacity:1" />
     </linearGradient>
   </defs>
-  <text x="400" y="55" class="header-text" text-anchor="middle">{text}</text>
+  <text x="400" y="55" font-family="'Arial Black', Gadget, sans-serif" font-size="42" font-weight="900" fill="url(#grad)" text-anchor="middle" letter-spacing="2">{text}</text>
 </svg>"""
-    with open(f'/Users/abcom/.gemini/antigravity/scratch/aniketkrs/assets/{filename}.svg', 'w') as f:
-        f.write(svg)
+    with open(f'/Users/abcom/.gemini/antigravity/scratch/aniketkrs/assets/{filename}-dark.svg', 'w') as f:
+        f.write(svg_dark)
+    with open(f'/Users/abcom/.gemini/antigravity/scratch/aniketkrs/assets/{filename}-light.svg', 'w') as f:
+        f.write(svg_light)
 
 create_header("ABOUT ME", "header-about")
 create_header("PRODUCT STACK", "header-stack")
@@ -125,7 +118,8 @@ create_header("GITHUB METRICS", "header-stats")
 ts = datetime.now().timestamp()
 
 readme_content = f"""<div align="center">
-  <img src="assets/animated-header.svg?v={ts}" alt="Aniket Kumar" width="100%" />
+  <img src="assets/animated-header-dark.svg?v={ts}" alt="Aniket Kumar" width="100%" class="only-dark" />
+  <img src="assets/animated-header-light.svg?v={ts}" alt="Aniket Kumar" width="100%" class="only-light" />
 </div>
 
 <div align="center" style="margin-top: -20px; margin-bottom: 20px;">
@@ -134,13 +128,15 @@ readme_content = f"""<div align="center">
 <br>
 
 <div align="center">
-  <img src="assets/header-about.svg?v={ts}" alt="About Me" width="100%" />
+  <img src="assets/header-about-dark.svg?v={ts}" alt="About Me" width="100%" class="only-dark" />
+  <img src="assets/header-about-light.svg?v={ts}" alt="About Me" width="100%" class="only-light" />
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1500&color=6366f1&center=true&vCenter=true&multiline=true&width=800&height=220&lines=Product+Manager+transitioned+from+Designer.;I+love+building+features+and+making+user+experiences;seamless+and+good,+thinking+for+the+long+term.;I+love+to+play+and+experiment+with+new+tools+and+features.;Now+on+the+journey+of+building+AI+products;and+I+love+to+read+books+and+write+articles.&v={ts}" alt="Typing Intro" width="100%" />
 </div>
 <br>
 
 <div align="center">
-  <img src="assets/header-stack.svg?v={ts}" alt="Product Stack" width="100%" />
+  <img src="assets/header-stack-dark.svg?v={ts}" alt="Product Stack" width="100%" class="only-dark" />
+  <img src="assets/header-stack-light.svg?v={ts}" alt="Product Stack" width="100%" class="only-light" />
 </div>
 
 <div align="center">
@@ -149,7 +145,8 @@ readme_content = f"""<div align="center">
 <br>
 
 <div align="center">
-  <img src="assets/header-stats.svg?v={ts}" alt="GitHub Metrics" width="100%" />
+  <img src="assets/header-stats-dark.svg?v={ts}" alt="GitHub Metrics" width="100%" class="only-dark" />
+  <img src="assets/header-stats-light.svg?v={ts}" alt="GitHub Metrics" width="100%" class="only-light" />
 </div>
 
 <div align="center">
