@@ -1,10 +1,18 @@
 <div align="center">
-<pre style="font-family: monospace; font-weight: bold; font-size: 14px; text-shadow: 0 0 5px rgba(139, 92, 246, 0.5); color: #8b5cf6;">
-    ___          _ __        __     __ __
-   /   |  ____  (_) /_____  / /_   / //_/_  ______ ___  ____ ______
-  / /| | / __ \/ / //_/ _ \/ __/  / ,&lt; / / / / __ `__ \/ __ `/ ___/
- / ___ |/ / / / / ,&lt; /  __/ /_   / /| / /_/ / / / / / / /_/ / /
-/_/  |_/_/ /_/_/_/|_|\___/\__/  /_/ |_\__,_/_/ /_/ /_/\__,_/_/
+<pre style="font-family: monospace; font-weight: 800; font-size: 16px; text-shadow: 0 0 8px rgba(255, 87, 34, 0.6); color: #FF5722; line-height: 1.2;">
+█████╗ ███╗   ██╗██╗██╗  ██╗███████╗████████╗
+██╔══██╗████╗  ██║██║██║ ██╔╝██╔════╝╚══██╔══╝
+███████║██╔██╗ ██║██║█████╔╝ █████╗     ██║
+██╔══██║██║╚██╗██║██║██╔═██╗ ██╔══╝     ██║
+██║  ██║██║ ╚████║██║██║  ██╗███████╗   ██║
+╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚═╝  ╚═╝╚══════╝   ╚═╝
+
+██╗  ██╗██╗   ██╗███╗   ███╗█████╗  ██████╗
+██║ ██╔╝██║   ██║████╗ ████║██╔══██╗██╔══██╗
+█████╔╝ ██║   ██║██╔████╔██║███████║██████╔╝
+██╔═██╗ ██║   ██║██║╚██╔╝██║██╔══██║██╔══██╗
+██║  ██╗╚██████╔╝██║ ╚═╝ ██║██║  ██║██║  ██║
+╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝
 </pre>
 </div>
 
@@ -14,30 +22,30 @@
   <tr style="border: none;">
     <td width="60%" style="border: none;" valign="top">
       <h2>Connect with me</h2>
-      <a href="https://github.com/aniketkrs"><img src="https://img.shields.io/badge/GITHUB-09090b?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-      <a href="https://linkedin.com/in/#"><img src="https://img.shields.io/badge/LINKEDIN-09090b?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-      <a href="https://twitter.com/#"><img src="https://img.shields.io/badge/TWITTER-09090b?style=for-the-badge&logo=x&logoColor=white" alt="Twitter" /></a>
-      <a href="mailto:#"><img src="https://img.shields.io/badge/EMAIL-09090b?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-      <a href="https://github.com/aniketkrs/aniketkrs/tree/main/portfolio"><img src="https://img.shields.io/badge/PORTFOLIO-09090b?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+      <a href="https://github.com/aniketkrs"><img src="https://img.shields.io/badge/GITHUB-000000?style=flat&logo=github&logoColor=ff5722" alt="GitHub" /></a>
+      <a href="https://linkedin.com/in/#"><img src="https://img.shields.io/badge/LINKEDIN-000000?style=flat&logo=linkedin&logoColor=ff5722" alt="LinkedIn" /></a>
+      <a href="https://twitter.com/#"><img src="https://img.shields.io/badge/TWITTER-000000?style=flat&logo=x&logoColor=ff5722" alt="Twitter" /></a>
+      <a href="mailto:#"><img src="https://img.shields.io/badge/EMAIL-000000?style=flat&logo=gmail&logoColor=ff5722" alt="Email" /></a>
+      <a href="https://github.com/aniketkrs/aniketkrs/tree/main/portfolio"><img src="https://img.shields.io/badge/PORTFOLIO-000000?style=flat&logo=vercel&logoColor=ff5722" alt="Portfolio" /></a>
       <br><br>
       <h2>Product & Engineering Stack:</h2>
-      <img src="https://img.shields.io/badge/Figma-09090b?style=flat-square&logo=figma&logoColor=white" alt="Figma" />
-      <img src="https://img.shields.io/badge/Jira-09090b?style=flat-square&logo=jira&logoColor=white" alt="Jira" />
-      <img src="https://img.shields.io/badge/Notion-09090b?style=flat-square&logo=notion&logoColor=white" alt="Notion" />
-      <img src="https://img.shields.io/badge/Linear-09090b?style=flat-square&logo=linear&logoColor=white" alt="Linear" />
-      <img src="https://img.shields.io/badge/Framer-09090b?style=flat-square&logo=framer&logoColor=white" alt="Framer" />
-      <img src="https://img.shields.io/badge/Mixpanel-09090b?style=flat-square&logo=mixpanel&logoColor=white" alt="Mixpanel" />
-      <img src="https://img.shields.io/badge/Hotjar-09090b?style=flat-square&logo=hotjar&logoColor=white" alt="Hotjar" />
-      <img src="https://img.shields.io/badge/GA4-09090b?style=flat-square&logo=googleanalytics&logoColor=white" alt="GA4" />
-      <img src="https://img.shields.io/badge/Claude-09090b?style=flat-square&logo=anthropic&logoColor=white" alt="Claude" />
-      <img src="https://img.shields.io/badge/Antigravity_AI-09090b?style=flat-square&logo=googlebard&logoColor=white" alt="Antigravity" />
-      <img src="https://img.shields.io/badge/Next.js-09090b?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
-      <img src="https://img.shields.io/badge/React-09090b?style=flat-square&logo=react&logoColor=white" alt="React" />
-      <img src="https://img.shields.io/badge/Tailwind-09090b?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind" />
-      <img src="https://img.shields.io/badge/TypeScript-09090b?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+      <img src="https://img.shields.io/badge/Figma-000000?style=flat&logo=figma&logoColor=ff5722" alt="Figma" />
+      <img src="https://img.shields.io/badge/Jira-000000?style=flat&logo=jira&logoColor=ff5722" alt="Jira" />
+      <img src="https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=ff5722" alt="Notion" />
+      <img src="https://img.shields.io/badge/Linear-000000?style=flat&logo=linear&logoColor=ff5722" alt="Linear" />
+      <img src="https://img.shields.io/badge/Framer-000000?style=flat&logo=framer&logoColor=ff5722" alt="Framer" />
+      <img src="https://img.shields.io/badge/Mixpanel-000000?style=flat&logo=mixpanel&logoColor=ff5722" alt="Mixpanel" />
+      <img src="https://img.shields.io/badge/Hotjar-000000?style=flat&logo=hotjar&logoColor=ff5722" alt="Hotjar" />
+      <img src="https://img.shields.io/badge/GA4-000000?style=flat&logo=googleanalytics&logoColor=ff5722" alt="GA4" />
+      <img src="https://img.shields.io/badge/Claude-000000?style=flat&logo=anthropic&logoColor=ff5722" alt="Claude" />
+      <img src="https://img.shields.io/badge/Antigravity_AI-000000?style=flat&logo=googlebard&logoColor=ff5722" alt="Antigravity" />
+      <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=ff5722" alt="Next.js" />
+      <img src="https://img.shields.io/badge/React-000000?style=flat&logo=react&logoColor=ff5722" alt="React" />
+      <img src="https://img.shields.io/badge/Tailwind-000000?style=flat&logo=tailwindcss&logoColor=ff5722" alt="Tailwind" />
+      <img src="https://img.shields.io/badge/TypeScript-000000?style=flat&logo=typescript&logoColor=ff5722" alt="TypeScript" />
     </td>
     <td width="40%" style="border: none;" align="center" valign="center">
-      <img src="https://assets-v2.lottiefiles.com/a/5cf5d222-1175-11ee-8bb4-03a085ce092e/IomK0M3j0f.gif" alt="3D Product Manager" width="100%" />
+      <img src="assets/ai_tech_boy.png" alt="Tech PM AI Illustration" width="100%" />
     </td>
   </tr>
 </table>
@@ -47,18 +55,18 @@
 <table width="100%" style="border: none; background: transparent;">
   <tr style="border: none;">
     <td width="55%" style="border: none;" valign="top">
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=aniketkrs&bg_color=09090b&color=8b5cf6&line=8b5cf6&point=ffffff&area=true&hide_border=true&title_color=8b5cf6" alt="Activity Graph" width="100%" />
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=aniketkrs&bg_color=000000&color=ff5722&line=ff5722&point=ffffff&area=true&hide_border=true&title_color=ff5722" alt="Activity Graph" width="100%" />
     </td>
     <td width="45%" style="border: none;" valign="top">
-      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=aniketkrs&layout=donut&show_icons=true&hide_border=true&bg_color=09090b&title_color=8b5cf6&icon_color=8b5cf6&text_color=a1a1aa&card_width=400" alt="Top Languages" width="100%" />
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=aniketkrs&layout=donut&show_icons=true&hide_border=true&bg_color=000000&title_color=ff5722&icon_color=ff5722&text_color=ffffff&card_width=400" alt="Top Languages" width="100%" />
     </td>
   </tr>
   <tr style="border: none;">
     <td width="55%" style="border: none;" valign="top">
-      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=aniketkrs&show_icons=true&hide_border=true&bg_color=09090b&title_color=8b5cf6&icon_color=34d399&text_color=a1a1aa" alt="GitHub Stats" width="100%" />
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=aniketkrs&show_icons=true&hide_border=true&bg_color=000000&title_color=ff5722&icon_color=ff5722&text_color=ffffff" alt="GitHub Stats" width="100%" />
     </td>
     <td width="45%" style="border: none;" valign="top">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=aniketkrs&hide_border=true&background=09090b&ring=8b5cf6&fire=34d399&currStreakNum=ffffff&sideNums=a1a1aa&currStreakLabel=a1a1aa&sideLabels=a1a1aa&dates=a1a1aa&stroke=00000000" alt="GitHub Streak" width="100%" />
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=aniketkrs&hide_border=true&background=000000&ring=ff5722&fire=ff5722&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=ffffff&sideLabels=ffffff&dates=ffffff&stroke=00000000" alt="GitHub Streak" width="100%" />
     </td>
   </tr>
 </table>
@@ -66,6 +74,5 @@
 <br>
 
 <div align="center">
-  <!-- Dynamic Footer matching the Accent Color -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=8B5CF6&height=100&section=footer" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=FF5722&height=100&section=footer" width="100%"/>
 </div>
