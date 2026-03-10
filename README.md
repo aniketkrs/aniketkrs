@@ -3,7 +3,7 @@
 </div>
 
 <div align="center" style="margin-top: -20px; margin-bottom: 20px;">
-  <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" alt="Crazy Fast Typing Kermit" width="300" style="border-radius: 24px;" />
+  <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" alt="Crazy Fast Typing Kermit" width="500" style="border-radius: 24px;" />
 </div>
 
 <div style="width: 100%;">
