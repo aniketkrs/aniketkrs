@@ -88,11 +88,11 @@ with open('/Users/abcom/.gemini/antigravity/scratch/aniketkrs/assets/animated-ba
 def create_header(text, filename):
     # Dark mode — off-white on dark, no gradient
     svg_dark = f"""<svg width="800" height="72" xmlns="http://www.w3.org/2000/svg">
-  <text x="400" y="48" font-family="'Space Mono', 'Courier New', Courier, monospace" font-size="30" font-weight="700" fill="#e2e8f0" text-anchor="middle" letter-spacing="3">{text}</text>
+  <text x="400" y="48" font-family="'Space Mono', 'Courier New', Courier, monospace" font-size="30" font-weight="700" fill="#22d3ee" text-anchor="middle" letter-spacing="3">{text}</text>
 </svg>"""
     # Light mode — deep navy on white, no gradient
     svg_light = f"""<svg width="800" height="72" xmlns="http://www.w3.org/2000/svg">
-  <text x="400" y="48" font-family="'Space Mono', 'Courier New', Courier, monospace" font-size="30" font-weight="700" fill="#0f172a" text-anchor="middle" letter-spacing="3">{text}</text>
+  <text x="400" y="48" font-family="'Space Mono', 'Courier New', Courier, monospace" font-size="30" font-weight="700" fill="#1e40af" text-anchor="middle" letter-spacing="3">{text}</text>
 </svg>"""
     with open(f'/Users/abcom/.gemini/antigravity/scratch/aniketkrs/assets/{filename}-dark.svg', 'w') as f:
         f.write(svg_dark)
