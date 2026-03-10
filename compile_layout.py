@@ -24,6 +24,7 @@ for url in badges:
         with urllib.request.urlopen(req) as response:
             svg_data = response.read().decode('utf-8')
             svg_data = re.sub(r'<\?xml.*?\?>', '', svg_data).strip()
+            svgs.append(svg_data)
             print(f"Fetched {url.split('badge/')[1].split('-')[0]}")
     except Exception as e:
         print(f"Failed to fetch {url}: {e}")
@@ -110,7 +111,7 @@ readme_content = f"""<div align="center">
 
 <div align="center">
   <h2 align="center">About Me</h2>
-  <img src="https://readme-typing-svg.demolab.com?font=SF+Pro+Display&weight=500&size=16&pause=1500&color=a1a1aa&center=true&vCenter=true&multiline=true&width=800&height=120&lines=Product+Manager+transitioned+from+Designer.;I+love+building+features+and+making+user+experiences;seamless+and+good,+thinking+for+the+long+term.;I+love+to+play+and+experiment+with+new+tools+and+features.;Now+on+the+journey+of+building+AI+products;and+I+love+to+read+books+and+write+articles.&v={ts}" alt="Typing Intro" width="100%" />
+  <img src="https://readme-typing-svg.demolab.com?font=SF+Pro+Display&weight=500&size=16&pause=1500&color=a1a1aa&center=true&vCenter=true&multiline=true&width=800&height=170&lines=Product+Manager+transitioned+from+Designer.;I+love+building+features+and+making+user+experiences;seamless+and+good,+thinking+for+the+long+term.;I+love+to+play+and+experiment+with+new+tools+and+features.;Now+on+the+journey+of+building+AI+products;and+I+love+to+read+books+and+write+articles.&v={ts}" alt="Typing Intro" width="100%" />
 </div>
 
 <h2 align="center">Product Stack</h2>
