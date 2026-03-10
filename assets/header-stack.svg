@@ -1,9 +1,29 @@
 <svg width="800" height="80" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .header-text {
+      font-family: 'Arial Black', Gadget, sans-serif;
+      font-size: 42px;
+      font-weight: 900;
+      fill: url(#gradDark);
+      letter-spacing: 2px;
+    }
+    @media (prefers-color-scheme: light) {
+      .header-text {
+        fill: url(#gradLight);
+      }
+    }
+  </style>
   <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:1" />
+    <!-- Dark Mode Gradient (Sleek Indigo to Violet) -->
+    <linearGradient id="gradDark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a855f7;stop-opacity:1" />
+    </linearGradient>
+    <!-- Light Mode Gradient (Deep Navy to Ocean Blue) -->
+    <linearGradient id="gradLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1e40af;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0284c7;stop-opacity:1" />
     </linearGradient>
   </defs>
-  <text x="400" y="55" font-family="'Arial Black', Gadget, sans-serif" font-size="42" font-weight="900" fill="url(#grad)" text-anchor="middle" letter-spacing="2">PRODUCT STACK</text>
+  <text x="400" y="55" class="header-text" text-anchor="middle">PRODUCT STACK</text>
 </svg>
