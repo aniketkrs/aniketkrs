@@ -89,11 +89,11 @@ def create_header(text, filename):
     svg = f"""<svg width="800" height="80" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#4f46e5;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:1" />
     </linearGradient>
   </defs>
-  <text x="400" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="36" font-weight="900" fill="url(#grad)" text-anchor="middle" letter-spacing="3">{text}</text>
+  <text x="400" y="55" font-family="'Arial Black', Gadget, sans-serif" font-size="42" font-weight="900" fill="url(#grad)" text-anchor="middle" letter-spacing="2">{text}</text>
 </svg>"""
     with open(f'/Users/abcom/.gemini/antigravity/scratch/aniketkrs/assets/{filename}.svg', 'w') as f:
         f.write(svg)
@@ -108,13 +108,13 @@ readme_content = f"""<div align="center">
   <img src="assets/animated-header.svg?v={ts}" alt="Aniket Kumar" width="100%" />
 </div>
 
-<div align="center" style="margin-top: -30px; margin-bottom: 5px;">
-  <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" alt="Crazy Fast Typing Kermit" width="500" style="border-radius: 24px;" />
+<div align="center" style="margin-top: -20px; margin-bottom: 10px;">
+  <img src="assets/profile_pic.png?v={ts}" alt="Aniket Kumar Avatar" width="220" style="border-radius: 50%; box-shadow: 0 0 20px rgba(16,185,129,0.4); border: 4px solid #10B981;" />
 </div>
 
 <div align="center">
   <img src="assets/header-about.svg?v={ts}" alt="About Me" width="100%" />
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=500&size=20&pause=1500&color=f4f4f5&center=true&vCenter=true&multiline=true&width=800&height=220&lines=Product+Manager+transitioned+from+Designer.;I+love+building+features+and+making+user+experiences;seamless+and+good,+thinking+for+the+long+term.;I+love+to+play+and+experiment+with+new+tools+and+features.;Now+on+the+journey+of+building+AI+products;and+I+love+to+read+books+and+write+articles.&v={ts}" alt="Typing Intro" width="100%" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1500&color=10B981&center=true&vCenter=true&multiline=true&width=800&height=220&lines=Product+Manager+transitioned+from+Designer.;I+love+building+features+and+making+user+experiences;seamless+and+good,+thinking+for+the+long+term.;I+love+to+play+and+experiment+with+new+tools+and+features.;Now+on+the+journey+of+building+AI+products;and+I+love+to+read+books+and+write+articles.&v={ts}" alt="Typing Intro" width="100%" />
 </div>
 
 <div align="center">
@@ -129,35 +129,35 @@ readme_content = f"""<div align="center">
   <img src="assets/header-stats.svg?v={ts}" alt="GitHub Metrics" width="100%" />
 </div>
 
+<div align="center">
+  <a href="https://github.com/aniketkrs">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=aniketkrs&bg_color=0d1117&color=10b981&line=10b981&point=ffffff&area=true&hide_border=true&title_color=f8fafc&radius=12&custom_title=Contribution%20Graph&v={ts}" alt="Activity Graph" width="100%" />
+  </a>
+</div>
+
 <table width="100%" style="border-collapse: collapse; border: none;">
   <tr>
     <td width="50%" align="center" style="border: none;">
       <a href="https://github.com/aniketkrs">
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=aniketkrs&bg_color=0a0a0a&color=4f46e5&line=4f46e5&point=ffffff&area=true&hide_border=false&title_color=4f46e5&radius=24&custom_title=Aniket%20Kumar%27s%20Contribution%20Graph&v={ts}" alt="Activity Graph" width="100%" />
+        <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=aniketkrs&layout=compact&show_icons=true&hide_border=true&bg_color=0d1117&title_color=10b981&icon_color=3b82f6&text_color=94a3b8&border_radius=12&v={ts}" alt="Top Languages" width="100%" />
       </a>
     </td>
     <td width="50%" align="center" style="border: none;">
       <a href="https://github.com/aniketkrs">
-        <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=aniketkrs&show_icons=true&hide_border=false&bg_color=0a0a0a&title_color=4f46e5&icon_color=4f46e5&text_color=ffffff&border_radius=24&custom_title=My%20Programming%20Languages&v={ts}" alt="Top Languages" width="100%" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center" style="border: none;">
-      <a href="https://github.com/aniketkrs">
-        <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=aniketkrs&show_icons=true&hide_border=false&bg_color=0a0a0a&title_color=4f46e5&icon_color=4f46e5&text_color=ffffff&border_radius=24&custom_title=My%20GitHub%20Statistics&v={ts}" alt="GitHub Stats" width="100%" />
-      </a>
-    </td>
-    <td width="50%" align="center" style="border: none;">
-      <a href="https://github.com/aniketkrs">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=aniketkrs&hide_border=false&background=0a0a0a&ring=4f46e5&fire=4f46e5&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=ffffff&sideLabels=ffffff&dates=ffffff&stroke=00000000&border_radius=24&v={ts}" alt="GitHub Streak" width="100%" />
+        <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=aniketkrs&show_icons=true&hide_border=true&bg_color=0d1117&title_color=10b981&icon_color=3b82f6&text_color=94a3b8&border_radius=12&v={ts}" alt="GitHub Stats" width="100%" />
       </a>
     </td>
   </tr>
 </table>
 
+<div align="center">
+  <a href="https://github.com/aniketkrs">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=aniketkrs&hide_border=true&background=0d1117&ring=10b981&fire=3b82f6&currStreakNum=f8fafc&sideNums=94a3b8&currStreakLabel=94a3b8&sideLabels=94a3b8&dates=94a3b8&stroke=00000000&border_radius=12&v={ts}" alt="GitHub Streak" width="100%" />
+  </a>
+</div>
+
 <div align="center" style="margin-top: -20px;">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=4F46E5&height=100&section=footer&v={ts}" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=10B981&height=100&section=footer&v={ts}" width="100%"/>
 </div>
 """
 
